@@ -1,10 +1,6 @@
 {
-  "scope": "strict presence/hash gate before runtime assets copied; not model inference",
-  "expected_status": "blocked",
-  "observed_exit_code": 1,
-  "reason": {
-    "name": "demo_asset_presence",
-    "error": "missing demo assets: demo/portable_demo/model/fp32.onnx, demo/portable_demo/samples/val_0.png, demo/portable_demo/samples/val_9082.png, demo/portable_demo/samples/val_1.png, demo/portable_demo/samples/val_2.png, demo/portable_demo/samples/val_12.png, demo/portable_demo/samples/val_6.png, demo/portable_demo/samples/val_5.png, demo/portable_demo/samples/val_8.png, demo/portable_demo/samples/val_3.png, demo/portable_demo/samples/val_7.png"
-  },
-  "missing_assets": 11
+  "status": "passed",
+  "verified": 11,
+  "missing": [],
+  "scope": "byte identity only; real behavior in separate runtime receipt"
 }

@@ -1,5 +1,5 @@
 {
-  "material_version": "AI-practice-submission-v1",
+  "material_version": "AI-practice-submission-v1.1-publication",
   "prepared_at_utc": "2026-10-19T05:11:50.667771+00:00",
   "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
   "original_repo": "Wenhow1/pathmnist-tissue-classification",
@@ -7,9 +7,8 @@
   "target_repo": "Wenhow1/pathmnist-ai-practice-submission",
   "target_visibility": "private",
   "cloud_repository_created": true,
-  "cloud_push_completed": false,
-  "release_created": false,
-  "github_actions": "not_run",
+  "cloud_push_completed": true,
+  "github_actions": "passed_actual_run",
   "teacher_access": "not_tested_no_username",
   "codex_task_created": false,
   "delegation_limitation": "historical preparation limitation only; publication executed in existing authorized Codex chat",
@@ -42,7 +41,7 @@
   "original_inputs_modified": false,
   "new_formal_training": 0,
   "official_test_inference": 0,
-  "status_scope": "intermediate publication: assets accepted; cloud push and CI pending",
+  "status_scope": "publication, saved-file arithmetic and separate new-copy runtime; not new formal science",
   "finalized_at_utc": "2026-10-19T05:28:13.148668+00:00",
   "render_counts": {
     "01_AI工程实践主报告": 18,
@@ -55,8 +54,22 @@
   "source_copy_records": 236,
   "protected_uploaded_files_checked": 7,
   "native_user_powerpoint_or_wps_acceptance": "not_executed",
-  "local_demo_asset_gate": "blocked_pending_11_archived_files",
-  "new_copy_runtime_acceptance": "passed_20_checks_on_macos_arm64",
+  "local_demo_asset_gate": "passed_strict_11_assets",
+  "new_copy_runtime_acceptance": {
+    "checks": 20,
+    "status": "passed",
+    "scope": "fixed validation examples and negative/format fixtures on Mac arm64; no official test"
+  },
   "browser_acceptance": "passed_4_cases",
-  "updated_at_utc": "2026-10-19T09:49:18.414886+00:00"
+  "updated_at_utc": "2026-10-19T09:56:04.379411+00:00",
+  "cloud_receipt": "reproducibility/cloud_verification.json",
+  "release_status_source": "reproducibility/cloud_verification.json",
+  "new_copy_browser_acceptance": {
+    "cases": 4,
+    "status": "passed",
+    "app_network": "OS loopback only",
+    "browser_network": "not globally disabled"
+  },
+  "cloud_run_initial": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516",
+  "backup": "archive/received_prepublication_20261019.zip"
 }

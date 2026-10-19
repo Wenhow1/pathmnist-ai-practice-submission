@@ -1,0 +1,7 @@
+{
+  "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+  "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+  "copied": "demo/portable_demo/SHA256SUMS",
+  "all_17_portable_files_byte_identical_to_archive": true,
+  "manifest_verified": true
+}

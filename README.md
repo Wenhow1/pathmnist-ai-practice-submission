@@ -2,7 +2,7 @@
 
 **PathMNIST · 研究生工程实践第一阶段 · 教师提交材料 v1**
 
-本目录是用户授权整理的**独立新仓库待上传内容**，拟用仓库名 `Wenhow1/pathmnist-ai-practice-submission`。当前不代表已在GitHub创建，不是Fork；原仓库没有被修改。状态见[本轮提交状态](reproducibility/submission_status.json)。
+**独立私有教师仓库已创建并上传**：[Wenhow1/pathmnist-ai-practice-submission](https://github.com/Wenhow1/pathmnist-ai-practice-submission)。原仓库保持只读，本库不是Fork。2026-10-19发布接手补齐了原运行资产，并取得新副本验收和真实CI记录。精确提交、Release和CI见[云端回执](reproducibility/cloud_verification.json)。
 
 ## 从这里阅读
 
@@ -16,8 +16,8 @@
 | 查模型和结果 | [模型与工程评估报告](reports/04_模型与工程评估报告.pdf) · [正式源表](evidence/all_runs.csv) |
 | 准备答辩 | [同版逐页讲稿与图示说明](presentation/逐页讲稿与答疑.md) |
 | 看代码／复核 | [原代码快照](technical/source_snapshot/) · [安全核查说明](reproducibility/运行命令.md) |
-| 运行离线演示 | [演示状态与准备步骤](demo/README.md)（当前模型和10张PNG尚待复制） |
-| 接手发布 | [Codex交接](codex_handoff/HANDOFF.md) |
+| 运行离线演示 | [演示状态与准备步骤](demo/README.md)（模型和10张PNG已补齐并验收） |
+| 查发布过程 | [发布接手记录](reproducibility/发布接手记录.md) · [收到时的交接要求](codex_handoff/HANDOFF.md) |
 
 ## 项目与证据版本
 
@@ -29,9 +29,9 @@
 
 - 文稿、PPT、来源快照、提交检查脚本和CI配置：已在当前目录准备。
 - 当前可执行的本地核查：只检查保存文件和确定性算术，不导入训练框架、不推理模型。
-- 原项目Mac离线运行：有历史记录；**不代表本目录的新副本已经运行**。
-- 新仓库创建、推送、Release、GitHub Actions、老师授权：**待实际完成**，没有预填成功徽章。
-- 本目录缺少 `demo/portable_demo/model/fp32.onnx` 与10张来源清单指定的PNG，尚不是自包含可运行演示包。
+- 新副本运行：独立Mac arm64环境，命令行由操作系统禁止网络，20项检查通过；浏览器另外完成4项用例。见[运行回执](reproducibility/demo_runtime_acceptance.json)和[界面回执](reproducibility/browser_acceptance_20261019.json)。
+- 私有仓库和推送已完成，真实Actions已通过；只检查文件、哈希与保存结果算术。Release的发布提交、附件及哈希单独保存在云端回执。教师账号尚未提供，未邀请或验收教师访问。
+- 本目录直接包含 `demo/portable_demo/model/fp32.onnx` 与10张固定验证PNG，基本演示不依赖原仓库权限。安装依赖仍需网络或另备离线安装包。
 
 PPT共30页：1—25页正文、26页结束／答疑索引、27—30页隐藏附录；本轮不强制十分钟。旧21／23／25页手册不能套用新页码。
 

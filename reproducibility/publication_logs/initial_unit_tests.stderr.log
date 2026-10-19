@@ -1,0 +1,26 @@
+test_absolute_path (test_checks.Checks) ... ok
+test_bool_count (test_checks.Checks) ... ok
+test_boolean_metric (test_checks.Checks) ... ok
+test_count (test_checks.Checks) ... ok
+test_digest_change (test_checks.Checks) ... ok
+test_empty (test_checks.Checks) ... ok
+test_errors (test_checks.Checks) ... ok
+test_float_count (test_checks.Checks) ... ok
+test_identity (test_checks.Checks) ... ok
+test_json_nan (test_checks.Checks) ... ok
+test_metric (test_checks.Checks) ... ok
+test_metric_error (test_checks.Checks) ... ok
+test_missing_seeds (test_checks.Checks) ... ok
+test_negative (test_checks.Checks) ... ok
+test_nonfinite (test_checks.Checks) ... ok
+test_parent_path (test_checks.Checks) ... ok
+test_safe_path (test_checks.Checks) ... ok
+test_symlink_escape (test_checks.Checks) ... ok
+test_validation_selection_not_test (test_checks.Checks) ... ok
+test_windows_path (test_checks.Checks) ... ok
+test_wrong_shape (test_checks.Checks) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.003s
+
+OK

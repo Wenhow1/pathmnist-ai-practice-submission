@@ -1,17 +1,14 @@
-# FP32演示：当前副本的准备状态
+# FP32演示：已补齐运行资产的新副本
 
-**本目录已复制程序和元数据，但没有模型本体及固定PNG，不应直接称为“拿到即能运行”。** 原项目Mac断网验收是历史记录，详见[原README](portable_demo/README.md)。当前缺失清单：[required_runtime_assets.json](required_runtime_assets.json)。
+本目录已包含原FP32 ONNX模型、10张固定验证PNG、元数据和便携程序。11份资产均按[指定清单](required_runtime_assets.json)匹配原SHA；[复制回执](../reproducibility/runtime_asset_copy.json)记录原归档与成员路径。没有重新导出模型、重生成图像或运行官方测试。
 
-需要从原第七阶段便携包复制而不是重导出：
+2026-10-19在新随机目录和新Python环境验收，未安装PyTorch、torchvision、MedMNIST或scikit-learn。[20项运行检查](../reproducibility/demo_runtime_acceptance.json)覆盖10张固定样例与原CSV参考概率（绝对误差阈值1e-5）、L/RGBA输入转换、损坏图片、模型字节／标签／预处理不匹配、路径越界与拒绝覆盖。命令行由OS禁止网络，外网探测因权限被拒绝。格式转换用例属于合成格式检查。
 
-- `portable_demo/model/fp32.onnx`，6,128,891字节，SHA256 `8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33`。
-- [样例来源清单](portable_demo/samples/provenance.json)指定的10张PNG，逐一按既有SHA校验；不要裁切报告截图冒充原验证样例。
+[4项浏览器用例](../reproducibility/browser_acceptance_20261019.json)包括正确样例、固定不一致样例、损坏输入与正常上传。应用进程由OS限制为只可访问本机回环；浏览器本身没有全局断网。课堂投影及Windows/Linux尚未验收。
 
-复制后执行 `python3 checks/verify_submission.py --root . --require-demo-assets`（在新仓库根目录）。此命令只校验字节，不执行模型。随后按实际目标平台安装运行时，在**新目录**验证图像预测与参考概率、损坏输入、拒绝覆盖和断网；新验收结果另存，不覆盖原历史JSON。
+## 在Mac arm64运行
 
-## 运行方式（模型和样例齐全、环境准备好之后）
-
-原实测环境为Mac arm64。历史锁定文件不是所有平台通用保证。
+本轮实测Python 3.12.14。以下python3应指向Python 3.12；如果系统默认版本不同，可用python3.12建立虚拟环境。本包不含Python安装器或离线wheelhouse。
 
 ```sh
 cd demo/portable_demo
@@ -21,8 +18,8 @@ python3 -m venv .venv
 .venv/bin/python app.py --port 8767
 ```
 
-浏览器访问 `http://127.0.0.1:8767`。安装依赖可能需要网络；已安装依赖后的离线推理，不等于全离线安装。上传PNG/JPEG不代表能诊断任意医学图像；模型仅针对九类组织图像块，也没有自动域外识别或患者诊断能力。
+打开 http://127.0.0.1:8767 。依赖安装可能需要网络；安装完成后的推理不依赖服务器、GPU、训练数据或云API。锁文件对应实测的Mac环境，不宣称跨平台验证。
 
-## 新仓库发布要求
+默认FP32与固定模型D_seed2026保持不变。val:9082是与给定标签不一致的固定样例，未获病理专家复核。输出是病理图像块九类组织，不是患者诊断，也没有自动域外检测。
 
-模型与样例可进入新库或其Release，保留相对路径和元数据校验。不要仅引用原私有库下载链接，否则老师即使有新库权限也可能缺少运行资产。原始全数据和其他14份大权重无需为默认演示迁移；完整再现需求另列资源授权说明。
+原[portable_demo说明](portable_demo/README.md)保留历史字节，其原仓库Release及平台叙述是来源记录。当前基本运行所需文件直接随新库提供，无需另申请原私有库权限。完整NPZ和其他正式权重不属于默认演示依赖。

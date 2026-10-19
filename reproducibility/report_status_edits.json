@@ -1,0 +1,17 @@
+[
+  {
+    "document": "01_AI工程实践主报告",
+    "replaced_phrases": 7,
+    "scope": "publication/runtime status only; scientific results unchanged"
+  },
+  {
+    "document": "03_AI使用日志与交互案例",
+    "replaced_phrases": 3,
+    "scope": "publication/runtime status only; scientific results unchanged"
+  },
+  {
+    "document": "04_模型与工程评估报告",
+    "replaced_phrases": 1,
+    "scope": "publication/runtime status only; scientific results unchanged"
+  }
+]

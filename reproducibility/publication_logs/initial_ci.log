@@ -1,0 +1,373 @@
+submission-only	Set up job	﻿2026-10-19T09:49:57.2430535Z Current runner version: '2.337.0'
+submission-only	Set up job	2026-10-19T09:49:57.2469600Z ##[group]Runner Image Provisioner
+submission-only	Set up job	2026-10-19T09:49:57.2471300Z Hosted Compute Agent
+submission-only	Set up job	2026-10-19T09:49:57.2472378Z Version: 20261012.601
+submission-only	Set up job	2026-10-19T09:49:57.2473608Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+submission-only	Set up job	2026-10-19T09:49:57.2474944Z Build Date: 2026-10-12T17:48:21Z
+submission-only	Set up job	2026-10-19T09:49:57.2476114Z Worker ID: {1f2fd0d1-644f-48d1-b1d3-d392be74a49b}
+submission-only	Set up job	2026-10-19T09:49:57.2477471Z Region: centralus
+submission-only	Set up job	2026-10-19T09:49:57.2479072Z Cloud: Azure
+submission-only	Set up job	2026-10-19T09:49:57.2480188Z ##[endgroup]
+submission-only	Set up job	2026-10-19T09:49:57.2483110Z ##[group]Operating System
+submission-only	Set up job	2026-10-19T09:49:57.2484240Z Ubuntu
+submission-only	Set up job	2026-10-19T09:49:57.2485351Z 24.04.5
+submission-only	Set up job	2026-10-19T09:49:57.2486260Z LTS
+submission-only	Set up job	2026-10-19T09:49:57.2487273Z ##[endgroup]
+submission-only	Set up job	2026-10-19T09:49:57.2488879Z ##[group]Runner Image
+submission-only	Set up job	2026-10-19T09:49:57.2489983Z Image: ubuntu-24.04
+submission-only	Set up job	2026-10-19T09:49:57.2491120Z Version: 20261012.334.1
+submission-only	Set up job	2026-10-19T09:49:57.2493060Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+submission-only	Set up job	2026-10-19T09:49:57.2496370Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+submission-only	Set up job	2026-10-19T09:49:57.2498563Z ##[endgroup]
+submission-only	Set up job	2026-10-19T09:49:57.2500632Z ##[group]GITHUB_TOKEN Permissions
+submission-only	Set up job	2026-10-19T09:49:57.2503538Z Contents: read
+submission-only	Set up job	2026-10-19T09:49:57.2505149Z Metadata: read
+submission-only	Set up job	2026-10-19T09:49:57.2506083Z ##[endgroup]
+submission-only	Set up job	2026-10-19T09:49:57.2509858Z Secret source: Actions
+submission-only	Set up job	2026-10-19T09:49:57.2511538Z Cache mode: write
+submission-only	Set up job	2026-10-19T09:49:57.2513091Z Prepare workflow directory
+submission-only	Set up job	2026-10-19T09:49:57.3474663Z Prepare all required actions
+submission-only	Set up job	2026-10-19T09:49:57.3630637Z Getting action download info
+submission-only	Set up job	2026-10-19T09:49:57.6252662Z Download action repository 'actions/checkout@11d5960a326750d5838078e36cf38b85af677262' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+submission-only	Set up job	2026-10-19T09:49:57.8415034Z Complete job name: submission-only
+submission-only	Read this submission repository	﻿2026-10-19T09:49:57.9311715Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+submission-only	Read this submission repository	2026-10-19T09:49:57.9312808Z with:
+submission-only	Read this submission repository	2026-10-19T09:49:57.9313314Z   persist-credentials: false
+submission-only	Read this submission repository	2026-10-19T09:49:57.9313947Z   repository: Wenhow1/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:57.9318282Z   token: ***
+submission-only	Read this submission repository	2026-10-19T09:49:57.9318730Z   ssh-strict: true
+submission-only	Read this submission repository	2026-10-19T09:49:57.9319174Z   ssh-user: git
+submission-only	Read this submission repository	2026-10-19T09:49:57.9319607Z   clean: true
+submission-only	Read this submission repository	2026-10-19T09:49:57.9320066Z   sparse-checkout-cone-mode: true
+submission-only	Read this submission repository	2026-10-19T09:49:57.9320594Z   fetch-depth: 1
+submission-only	Read this submission repository	2026-10-19T09:49:57.9321030Z   fetch-tags: false
+submission-only	Read this submission repository	2026-10-19T09:49:57.9321484Z   show-progress: true
+submission-only	Read this submission repository	2026-10-19T09:49:57.9321937Z   lfs: false
+submission-only	Read this submission repository	2026-10-19T09:49:57.9322352Z   submodules: false
+submission-only	Read this submission repository	2026-10-19T09:49:57.9322806Z   set-safe-directory: true
+submission-only	Read this submission repository	2026-10-19T09:49:57.9323335Z   allow-unsafe-pr-checkout: false
+submission-only	Read this submission repository	2026-10-19T09:49:57.9324123Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:58.0476553Z Syncing repository: Wenhow1/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:58.0482422Z ##[group]Getting Git version info
+submission-only	Read this submission repository	2026-10-19T09:49:58.0484197Z Working directory is '/home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission'
+submission-only	Read this submission repository	2026-10-19T09:49:58.0516746Z [command]/usr/bin/git version
+submission-only	Read this submission repository	2026-10-19T09:49:58.0696141Z git version 2.55.0
+submission-only	Read this submission repository	2026-10-19T09:49:58.0743568Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:58.0754438Z Temporarily overriding HOME='/home/runner/work/_temp/fde3d9bf-e5ee-4c5e-a793-be649a627f30' before making global git config changes
+submission-only	Read this submission repository	2026-10-19T09:49:58.0757214Z Adding repository directory to the temporary git global config as a safe directory
+submission-only	Read this submission repository	2026-10-19T09:49:58.0761419Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:58.0805855Z Deleting the contents of '/home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission'
+submission-only	Read this submission repository	2026-10-19T09:49:58.0829060Z ##[group]Initializing the repository
+submission-only	Read this submission repository	2026-10-19T09:49:58.0834348Z [command]/usr/bin/git init /home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:58.0985137Z hint: Using 'master' as the name for the initial branch. This default branch name
+submission-only	Read this submission repository	2026-10-19T09:49:58.0988574Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+submission-only	Read this submission repository	2026-10-19T09:49:58.0993134Z hint: to use in all of your new repositories, which will suppress this warning,
+submission-only	Read this submission repository	2026-10-19T09:49:58.0995598Z hint: call:
+submission-only	Read this submission repository	2026-10-19T09:49:58.0998688Z hint:
+submission-only	Read this submission repository	2026-10-19T09:49:58.1000192Z hint: 	git config --global init.defaultBranch <name>
+submission-only	Read this submission repository	2026-10-19T09:49:58.1001596Z hint:
+submission-only	Read this submission repository	2026-10-19T09:49:58.1003416Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+submission-only	Read this submission repository	2026-10-19T09:49:58.1008858Z hint: 'development'. The just-created branch can be renamed via this command:
+submission-only	Read this submission repository	2026-10-19T09:49:58.1010808Z hint:
+submission-only	Read this submission repository	2026-10-19T09:49:58.1013470Z hint: 	git branch -m <name>
+submission-only	Read this submission repository	2026-10-19T09:49:58.1014299Z hint:
+submission-only	Read this submission repository	2026-10-19T09:49:58.1015355Z hint: Disable this message with "git config set advice.defaultBranchName false"
+submission-only	Read this submission repository	2026-10-19T09:49:58.1017995Z Initialized empty Git repository in /home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission/.git/
+submission-only	Read this submission repository	2026-10-19T09:49:58.1021581Z [command]/usr/bin/git remote add origin https://github.com/Wenhow1/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:58.1097151Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:58.1099382Z ##[group]Disabling automatic garbage collection
+submission-only	Read this submission repository	2026-10-19T09:49:58.1101048Z [command]/usr/bin/git config --local gc.auto 0
+submission-only	Read this submission repository	2026-10-19T09:49:58.1204147Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:58.1215231Z ##[group]Setting up auth
+submission-only	Read this submission repository	2026-10-19T09:49:58.1232885Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submission-only	Read this submission repository	2026-10-19T09:49:58.1255011Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submission-only	Read this submission repository	2026-10-19T09:49:58.1804166Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submission-only	Read this submission repository	2026-10-19T09:49:58.2036946Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submission-only	Read this submission repository	2026-10-19T09:49:58.2202749Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submission-only	Read this submission repository	2026-10-19T09:49:58.2244865Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submission-only	Read this submission repository	2026-10-19T09:49:58.3162030Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+submission-only	Read this submission repository	2026-10-19T09:49:58.3165126Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:58.3165981Z ##[group]Fetching the repository
+submission-only	Read this submission repository	2026-10-19T09:49:58.3168116Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +6c6f5c8607219a754b6a23b9fd1f03238d6264c2:refs/remotes/origin/main
+submission-only	Read this submission repository	2026-10-19T09:49:59.7331759Z From https://github.com/Wenhow1/pathmnist-ai-practice-submission
+submission-only	Read this submission repository	2026-10-19T09:49:59.7335122Z  * [new ref]         6c6f5c8607219a754b6a23b9fd1f03238d6264c2 -> origin/main
+submission-only	Read this submission repository	2026-10-19T09:49:59.7343886Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:59.7346178Z ##[group]Determining the checkout info
+submission-only	Read this submission repository	2026-10-19T09:49:59.7349231Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:59.7350882Z [command]/usr/bin/git sparse-checkout disable
+submission-only	Read this submission repository	2026-10-19T09:49:59.7431473Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+submission-only	Read this submission repository	2026-10-19T09:49:59.7474932Z ##[group]Checking out the ref
+submission-only	Read this submission repository	2026-10-19T09:49:59.7500801Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+submission-only	Read this submission repository	2026-10-19T09:49:59.8882126Z Switched to a new branch 'main'
+submission-only	Read this submission repository	2026-10-19T09:49:59.8899320Z branch 'main' set up to track 'origin/main'.
+submission-only	Read this submission repository	2026-10-19T09:49:59.8908636Z ##[endgroup]
+submission-only	Read this submission repository	2026-10-19T09:49:59.8959960Z [command]/usr/bin/git log -1 --format=%H
+submission-only	Read this submission repository	2026-10-19T09:49:59.8992791Z 6c6f5c8607219a754b6a23b9fd1f03238d6264c2
+submission-only	Read this submission repository	2026-10-19T09:49:59.9003699Z ##[group]Removing auth
+submission-only	Read this submission repository	2026-10-19T09:49:59.9011779Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submission-only	Read this submission repository	2026-10-19T09:49:59.9062127Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submission-only	Read this submission repository	2026-10-19T09:49:59.9299462Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submission-only	Read this submission repository	2026-10-19T09:49:59.9332588Z http.https://github.com/.extraheader
+submission-only	Read this submission repository	2026-10-19T09:49:59.9356935Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+submission-only	Read this submission repository	2026-10-19T09:49:59.9570573Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submission-only	Read this submission repository	2026-10-19T09:49:59.9935039Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submission-only	Read this submission repository	2026-10-19T09:49:59.9941385Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submission-only	Read this submission repository	2026-10-19T09:50:00.0146317Z ##[endgroup]
+submission-only	Show interpreter version	﻿2026-10-19T09:50:00.0363350Z ##[group]Run python3 --version
+submission-only	Show interpreter version	2026-10-19T09:50:00.0363816Z ^[[36;1mpython3 --version^[[0m
+submission-only	Show interpreter version	2026-10-19T09:50:00.0658156Z shell: /usr/bin/bash -e {0}
+submission-only	Show interpreter version	2026-10-19T09:50:00.0658707Z ##[endgroup]
+submission-only	Show interpreter version	2026-10-19T09:50:00.0784353Z Python 3.12.3
+submission-only	New synthetic submission checker tests	﻿2026-10-19T09:50:00.0829185Z ##[group]Run python3 -m unittest discover -s tests_submission -v
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.0829816Z ^[[36;1mpython3 -m unittest discover -s tests_submission -v^[[0m
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.0891080Z shell: /usr/bin/bash -e {0}
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.0891425Z ##[endgroup]
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1663461Z test_absolute_path (test_checks.Checks.test_absolute_path) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1675369Z test_bool_count (test_checks.Checks.test_bool_count) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1679159Z test_boolean_metric (test_checks.Checks.test_boolean_metric) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1680280Z test_count (test_checks.Checks.test_count) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1681325Z test_digest_change (test_checks.Checks.test_digest_change) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1682407Z test_empty (test_checks.Checks.test_empty) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1683350Z test_errors (test_checks.Checks.test_errors) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1684122Z test_float_count (test_checks.Checks.test_float_count) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1685163Z test_identity (test_checks.Checks.test_identity) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1686214Z test_json_nan (test_checks.Checks.test_json_nan) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1687135Z test_metric (test_checks.Checks.test_metric) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1688331Z test_metric_error (test_checks.Checks.test_metric_error) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1689466Z test_missing_seeds (test_checks.Checks.test_missing_seeds) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1690471Z test_negative (test_checks.Checks.test_negative) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1691162Z test_nonfinite (test_checks.Checks.test_nonfinite) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1692091Z test_parent_path (test_checks.Checks.test_parent_path) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1693126Z test_safe_path (test_checks.Checks.test_safe_path) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1694232Z test_symlink_escape (test_checks.Checks.test_symlink_escape) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1695556Z test_validation_selection_not_test (test_checks.Checks.test_validation_selection_not_test) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1696892Z test_windows_path (test_checks.Checks.test_windows_path) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1697964Z test_wrong_shape (test_checks.Checks.test_wrong_shape) ... ok
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1698770Z 
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1699045Z ----------------------------------------------------------------------
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1699692Z Ran 21 tests in 0.004s
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1700247Z 
+submission-only	New synthetic submission checker tests	2026-10-19T09:50:00.1700420Z OK
+submission-only	Verify saved files and arithmetic, not model execution	﻿2026-10-19T09:50:00.1794661Z ##[group]Run python3 checks/verify_submission.py --root . --require-demo-assets
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.1795355Z ^[[36;1mpython3 checks/verify_submission.py --root . --require-demo-assets^[[0m
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.1861115Z shell: /usr/bin/bash -e {0}
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.1861464Z ##[endgroup]
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6212078Z {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6229509Z   "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6230512Z   "scope": "local submission file/arithmetic checks only",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6231378Z   "checks": [
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6232240Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6232824Z       "name": "file_manifest",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6233443Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6233986Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6234597Z         "files_verified": 310,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6235330Z         "coverage": "enumerated immutable files; dynamic logs excluded"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6236083Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6236581Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6237218Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6238197Z       "name": "historical_source_identity",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6239116Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6239704Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6240225Z         "source_copies": 236,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6240853Z         "remote_redownload": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6241551Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6242052Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6242532Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6243072Z       "name": "formal_saved_confusion_arithmetic",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6243770Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6244390Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6244922Z         "count": 15,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6245507Z         "saved_confusion_matrices": [
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6246110Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6246722Z             "run": "A_seed42",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6247334Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6248425Z             "accuracy": 0.9257660167130919,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6249165Z             "macro_f1": 0.9061123426439318
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6249764Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6250266Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6250819Z             "run": "A_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6251397Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6251933Z             "accuracy": 0.9257660167130919,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6323448Z             "macro_f1": 0.9055462939659916
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6324523Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6338742Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6339472Z             "run": "A_seed3407",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6340160Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6340921Z             "accuracy": 0.9293871866295265,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6341828Z             "macro_f1": 0.9058958792324765
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6342574Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6343141Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6343716Z             "run": "B_seed42",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6344158Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6344551Z             "accuracy": 0.9314763231197771,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6345027Z             "macro_f1": 0.9103959847320433
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6345474Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6345783Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6346121Z             "run": "B_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6346519Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6346881Z             "accuracy": 0.9284122562674094,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6347329Z             "macro_f1": 0.9046917015723509
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6348088Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6348413Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6348736Z             "run": "B_seed3407",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6349279Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6349662Z             "accuracy": 0.935933147632312,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6350166Z             "macro_f1": 0.9131063369096475
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6350580Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6350892Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6351157Z             "run": "C_seed42",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6351395Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6351637Z             "accuracy": 0.8779944289693593,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6351942Z             "macro_f1": 0.857258967383408
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6352191Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6352372Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6352929Z             "run": "C_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6353165Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6353381Z             "accuracy": 0.9020891364902507,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6353652Z             "macro_f1": 0.8750455963823774
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6353908Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6354239Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6354432Z             "run": "C_seed3407",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6354671Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6354883Z             "accuracy": 0.8955431754874652,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6355152Z             "macro_f1": 0.8691832627282478
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6355405Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6355596Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6355783Z             "run": "D_seed42",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6356017Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6356234Z             "accuracy": 0.9399721448467967,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6356501Z             "macro_f1": 0.92263961682919
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6356751Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6356930Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6357132Z             "run": "D_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6357367Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6357988Z             "accuracy": 0.9487465181058495,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6358327Z             "macro_f1": 0.929008244957132
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6358578Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6358805Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6358994Z             "run": "D_seed3407",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6359221Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6359431Z             "accuracy": 0.9410863509749303,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6359702Z             "macro_f1": 0.9212985913798762
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6359943Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6360118Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6360302Z             "run": "E_seed42",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6360525Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6360747Z             "accuracy": 0.9459610027855153,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6361005Z             "macro_f1": 0.9260904805088293
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6361247Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6361423Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6361657Z             "run": "E_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6361886Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6362101Z             "accuracy": 0.9540389972144847,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6362356Z             "macro_f1": 0.9391817460583248
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6362598Z           },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6362779Z           {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6362976Z             "run": "E_seed3407",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6363203Z             "n": 7180,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6363411Z             "accuracy": 0.954874651810585,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6363670Z             "macro_f1": 0.939169664031355
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6363919Z           }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6364100Z         ],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6364301Z         "model_inference": false,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6364559Z         "auc_recomputed": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6364795Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6364968Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6365143Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6365346Z       "name": "pretest_selection_replay",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6365627Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6365865Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6366078Z         "admissible": [
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6366292Z           "A",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6366480Z           "B",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6366662Z           "D"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6366845Z         ],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6367036Z         "group": "D",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6367259Z         "run_id": "D_seed2026",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6367792Z         "cpu_statistic": "median of three run medians"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6368118Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6368294Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6368468Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6368711Z       "name": "quant_saved_confusion_arithmetic",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6369007Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6369228Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6369432Z         "val_samples": 10004,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6369671Z         "accuracy": 0.9958016793282687,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6369931Z         "macro_f1": 0.9956677882029599,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6370194Z         "new_test_inference": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6370645Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6370814Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6370984Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6371168Z       "name": "demo_metadata_only",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6371416Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6371635Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6372103Z         "model_sha": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6372534Z         "samples_in_provenance": 10,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6372795Z         "weights_loaded": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6373020Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6373188Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6373362Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6373555Z       "name": "demo_asset_presence",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6373814Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6374040Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6374236Z         "verified": 11,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6374446Z         "missing": [],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6374663Z         "inference_executed": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6374901Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6375078Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6375256Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6375454Z       "name": "docx_pptx_package_structure",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6375731Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6375940Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6376455Z         "03_AI使用日志与交互案例.docx": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6376722Z           "zip_and_xml": "passed"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6376968Z         },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6377210Z         "01_AI工程实践主报告.docx": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6377450Z           "zip_and_xml": "passed"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6378072Z         },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6378351Z         "04_模型与工程评估报告.docx": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6378610Z           "zip_and_xml": "passed"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6378850Z         },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6379093Z         "02_数据集探索笔记.docx": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6379334Z           "zip_and_xml": "passed"
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6379561Z         },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6379841Z         "PathMNIST_AI工程实践汇报_教师提交版.pptx": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6380134Z           "slides": 30,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6380381Z           "hidden": 4,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6380586Z           "notes": 30
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6380782Z         }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6380954Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6381128Z     },
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6381303Z     {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6381498Z       "name": "authored_relative_links",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6381798Z       "status": "passed",
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6382023Z       "detail": {
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6382236Z         "links_checked": 51,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6382468Z         "files": 18,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6382732Z         "historical_embedded_source_links_excluded": true,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6383089Z         "online_access_tested": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6383339Z       }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6383512Z     }
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6383688Z   ],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6383866Z   "errors": [],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6384080Z   "warnings": [],
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6384285Z   "new_training_runs": 0,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6384518Z   "new_model_inference": 0,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6384776Z   "official_test_predictions_generated": 0,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6385078Z   "cloud_ci_executed": false,
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6385331Z   "source_repository_written": false
+submission-only	Verify saved files and arithmetic, not model execution	2026-10-19T09:50:00.6385580Z }
+submission-only	Post Read this submission repository	﻿2026-10-19T09:50:00.6521917Z Post job cleanup.
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7478845Z [command]/usr/bin/git version
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7558330Z git version 2.55.0
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7596198Z Temporarily overriding HOME='/home/runner/work/_temp/6a42c2b3-1a4c-4e37-b5e9-296993c95925' before making global git config changes
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7598354Z Adding repository directory to the temporary git global config as a safe directory
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7603848Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pathmnist-ai-practice-submission/pathmnist-ai-practice-submission
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7685292Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.7741878Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.8113388Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.8172408Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.8689863Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+submission-only	Post Read this submission repository	2026-10-19T09:50:00.8761283Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+submission-only	Complete job	﻿2026-10-19T09:50:00.9601237Z Cleaning up orphan processes
+submission-only	Complete job	2026-10-19T09:50:00.9893736Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

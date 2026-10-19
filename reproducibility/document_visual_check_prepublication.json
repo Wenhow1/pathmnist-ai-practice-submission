@@ -1,0 +1,58 @@
+{
+  "reports": {
+    "01_AI工程实践主报告.pdf": {
+      "pages": 18,
+      "visual_review": "all pages inspected; table-width fixes rerendered",
+      "sha256": "96aa65e3998e00c7e604bd620cb231c6c817bc1d84a86a4c8e31c36ecefdfb25"
+    },
+    "02_数据集探索笔记.pdf": {
+      "pages": 6,
+      "visual_review": "all pages inspected; table-width fixes rerendered",
+      "sha256": "f5951152756e2f6af40c80bad1887d71723dfc4c0b5e652de3992cb2e7cf958b"
+    },
+    "03_AI使用日志与交互案例.pdf": {
+      "pages": 8,
+      "visual_review": "all pages inspected; table-width fixes rerendered",
+      "sha256": "cce0f6d3f8693e4ae546cf92ed89c619c99388290f8dff08d26cb7f9da117771"
+    },
+    "04_模型与工程评估报告.pdf": {
+      "pages": 24,
+      "visual_review": "all pages inspected; table-width fixes rerendered",
+      "sha256": "4541964734b6c9b04c256580e8e3408c5b7714f2e35f76adc408905554f1cb20"
+    }
+  },
+  "presentation": {
+    "slides": 30,
+    "hidden_slides": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "internal_slide_relationships_checked": 8,
+    "preview_pages": 30,
+    "visual_review": "all 30 pages inspected in LibreOffice export; appendix return/button layout checked",
+    "sha256": "4d947d688ee4ec5a2a4965dfbe92ccecbe164f3f16e875ebe4203c5f709921ad"
+  },
+  "renderer": "LibreOffice DOCX/PPTX export; PDF raster inspection",
+  "latest_docx_reexport_equivalence": [
+    {
+      "report": "01_AI工程实践主报告",
+      "pages": 18,
+      "changed_pixels_pages_same_scale": []
+    },
+    {
+      "report": "03_AI使用日志与交互案例",
+      "pages": 8,
+      "changed_pixels_pages_same_scale": []
+    }
+  ],
+  "not_validated": [
+    "user native PowerPoint/WPS device display",
+    "actual classroom projection",
+    "cloud CI",
+    "new independent demo runtime",
+    "model inference"
+  ],
+  "new_scientific_experiments": 0
+}

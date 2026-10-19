@@ -1,0 +1,23 @@
+Collecting flatbuffers==25.12.19 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 1))
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting numpy==2.5.3 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 2))
+  Downloading numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting onnxruntime==1.31.0 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 3))
+  Downloading onnxruntime-1.31.0-cp312-cp312-macosx_14_0_arm64.whl.metadata (5.7 kB)
+Collecting packaging==26.3 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 4))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pillow==12.3.0 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 5))
+  Downloading pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting protobuf==7.36.2 (from -r demo/portable_demo/requirements-macos-arm64.lock.txt (line 6))
+  Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl.metadata (595 bytes)
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 10.9 MB/s eta 0:00:00
+Downloading onnxruntime-1.31.0-cp312-cp312-macosx_14_0_arm64.whl (20.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 10.7 MB/s eta 0:00:00
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 6.4 MB/s eta 0:00:00
+Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl (456 kB)
+Installing collected packages: flatbuffers, protobuf, pillow, packaging, numpy, onnxruntime
+Successfully installed flatbuffers-25.12.19 numpy-2.5.3 onnxruntime-1.31.0 packaging-26.3 pillow-12.3.0 protobuf-7.36.2

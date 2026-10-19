@@ -6,7 +6,7 @@
       "name": "file_manifest",
       "status": "passed",
       "detail": {
-        "files_verified": 289,
+        "files_verified": 326,
         "coverage": "enumerated immutable files; dynamic logs excluded"
       }
     },
@@ -70,13 +70,13 @@
             "run": "C_seed2026",
             "n": 7180,
             "accuracy": 0.9020891364902507,
-            "macro_f1": 0.8750455963823774
+            "macro_f1": 0.8750455963823773
           },
           {
             "run": "C_seed3407",
             "n": 7180,
             "accuracy": 0.8955431754874652,
-            "macro_f1": 0.8691832627282478
+            "macro_f1": 0.8691832627282479
           },
           {
             "run": "D_seed42",
@@ -88,7 +88,7 @@
             "run": "D_seed2026",
             "n": 7180,
             "accuracy": 0.9487465181058495,
-            "macro_f1": 0.929008244957132
+            "macro_f1": 0.9290082449571321
           },
           {
             "run": "D_seed3407",
@@ -112,7 +112,7 @@
             "run": "E_seed3407",
             "n": 7180,
             "accuracy": 0.954874651810585,
-            "macro_f1": 0.939169664031355
+            "macro_f1": 0.9391696640313553
           }
         ],
         "model_inference": false,
@@ -156,20 +156,8 @@
       "name": "demo_asset_presence",
       "status": "passed",
       "detail": {
-        "verified": 0,
-        "missing": [
-          "demo/portable_demo/model/fp32.onnx",
-          "demo/portable_demo/samples/val_0.png",
-          "demo/portable_demo/samples/val_9082.png",
-          "demo/portable_demo/samples/val_1.png",
-          "demo/portable_demo/samples/val_2.png",
-          "demo/portable_demo/samples/val_12.png",
-          "demo/portable_demo/samples/val_6.png",
-          "demo/portable_demo/samples/val_5.png",
-          "demo/portable_demo/samples/val_8.png",
-          "demo/portable_demo/samples/val_3.png",
-          "demo/portable_demo/samples/val_7.png"
-        ],
+        "verified": 11,
+        "missing": [],
         "inference_executed": false
       }
     },
@@ -177,16 +165,16 @@
       "name": "docx_pptx_package_structure",
       "status": "passed",
       "detail": {
-        "02_数据集探索笔记.docx": {
-          "zip_and_xml": "passed"
-        },
-        "01_AI工程实践主报告.docx": {
-          "zip_and_xml": "passed"
-        },
         "04_模型与工程评估报告.docx": {
           "zip_and_xml": "passed"
         },
+        "02_数据集探索笔记.docx": {
+          "zip_and_xml": "passed"
+        },
         "03_AI使用日志与交互案例.docx": {
+          "zip_and_xml": "passed"
+        },
+        "01_AI工程实践主报告.docx": {
           "zip_and_xml": "passed"
         },
         "PathMNIST_AI工程实践汇报_教师提交版.pptx": {
@@ -200,21 +188,15 @@
       "name": "authored_relative_links",
       "status": "passed",
       "detail": {
-        "links_checked": 51,
-        "files": 18,
+        "links_checked": 56,
+        "files": 19,
         "historical_embedded_source_links_excluded": true,
         "online_access_tested": false
       }
     }
   ],
   "errors": [],
-  "warnings": [
-    {
-      "name": "demo_not_self_contained",
-      "missing_count": 11,
-      "message": "copy archived FP32 and fixed PNGs; basic check does not establish runnable demo"
-    }
-  ],
+  "warnings": [],
   "new_training_runs": 0,
   "new_model_inference": 0,
   "official_test_predictions_generated": 0,

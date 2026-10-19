@@ -1,0 +1,12 @@
+{
+  "slides_with_visible_text_changes": [
+    21,
+    22,
+    23,
+    25
+  ],
+  "unchanged": "all scientific values, visual assets, layouts, theme, 30-slide count, 4 hidden slides and links",
+  "notes": "publication boundaries synchronized; corresponding speaker scripts updated",
+  "strategy": "surgical XML text substitution; no shape, chart, image or template regeneration",
+  "backup": "archive/received_prepublication_20261019.zip"
+}
