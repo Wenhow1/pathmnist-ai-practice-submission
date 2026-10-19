@@ -2,410 +2,309 @@
   "repository": {
     "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission",
     "private": false,
-    "fork": false,
-    "visibility": "public"
+    "visibility": "public",
+    "fork": false
   },
-  "earlier_ci": {
-    "conclusion": "success",
-    "createdAt": "2026-10-19T09:49:53Z",
-    "databaseId": 39232986516,
-    "headSha": "6c6f5c8607219a754b6a23b9fd1f03238d6264c2",
-    "jobs": [
-      {
-        "completedAt": "2026-10-19T09:50:03Z",
-        "conclusion": "success",
-        "databaseId": 117995201500,
-        "name": "submission-only",
-        "startedAt": "2026-10-19T09:49:56Z",
-        "status": "completed",
-        "steps": [
-          {
-            "completedAt": "2026-10-19T09:49:57Z",
-            "conclusion": "success",
-            "name": "Set up job",
-            "number": 1,
-            "startedAt": "2026-10-19T09:49:57Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "Read this submission repository",
-            "number": 2,
-            "startedAt": "2026-10-19T09:49:57Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "Show interpreter version",
-            "number": 3,
-            "startedAt": "2026-10-19T09:50:00Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "New synthetic submission checker tests",
-            "number": 4,
-            "startedAt": "2026-10-19T09:50:00Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "Verify saved files and arithmetic, not model execution",
-            "number": 5,
-            "startedAt": "2026-10-19T09:50:00Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "Post Read this submission repository",
-            "number": 10,
-            "startedAt": "2026-10-19T09:50:00Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T09:50:00Z",
-            "conclusion": "success",
-            "name": "Complete job",
-            "number": 11,
-            "startedAt": "2026-10-19T09:50:00Z",
-            "status": "completed"
-          }
-        ],
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516/job/117995201500"
-      }
-    ],
-    "status": "completed",
-    "updatedAt": "2026-10-19T09:50:03Z",
-    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516"
-  },
-  "publication_attestation": "The tagged material snapshot is immutable; later receipt-only commits contain final asset hashes and anonymous-download evidence. Cloud receipt is excluded from the recursive file manifest.",
+  "document_revision": "v1.2.0-teacher",
   "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
-  "runtime": "20 checks and 4 browser cases, separate validation-only receipts",
-  "teacher_access": "anonymous_repository_and_release_download_verified; no_invitation_required",
-  "classroom_device": "not_executed; not_required_by_user_for_this_submission",
-  "training": 0,
-  "official_test_inference": 0,
-  "recorded_at_utc": "2026-10-19T10:10:29.213604+00:00",
-  "original_repository_protection": {
-    "main_before": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
-    "main_after": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
-    "tracked_files_unchanged": 966
-  },
-  "updated_at_utc": "2026-10-19T10:33:01.703482+00:00",
-  "public_access_verification": "reproducibility/public_access_verification.json",
-  "previous_release": {
-    "created": true,
-    "tag": "v1.0.0-teacher",
-    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/tag/v1.0.0-teacher",
-    "target_commit": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
-    "asset_hashes_document": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
-    "assets": [
-      {
-        "name": "PathMNIST_AI_Practice_Submission_20261019.zip",
-        "bytes": 44734358,
-        "sha256": "592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
-        "github_digest": "sha256:592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_AI_Practice_Submission_20261019.zip",
-        "downloaded_and_compared": true
-      },
-      {
-        "name": "PathMNIST_FP32_Demo_20261019.zip",
-        "bytes": 6160758,
-        "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
-        "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
-        "downloaded_and_compared": true
-      },
-      {
-        "name": "SHA256SUMS.txt",
-        "bytes": 211,
-        "sha256": "e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
-        "github_digest": "sha256:e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
-        "downloaded_and_compared": true
-      }
-    ],
-    "uploaded_and_download_verified": true
-  },
-  "previous_materials_commit": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
-  "previous_material_ci": {
+  "materials_commit": "fc1f7eff3845ecfcdcf474e81cbc869f899bdd1e",
+  "material_ci": {
     "conclusion": "success",
-    "databaseId": 39235171659,
-    "headSha": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
+    "databaseId": 39257362767,
+    "headSha": "fc1f7eff3845ecfcdcf474e81cbc869f899bdd1e",
     "jobs": [
       {
-        "completedAt": "2026-10-19T10:07:46Z",
+        "completedAt": "2026-10-19T13:06:45Z",
         "conclusion": "success",
-        "databaseId": 118002381031,
+        "databaseId": 118075903517,
         "name": "submission-only",
-        "startedAt": "2026-10-19T10:07:39Z",
+        "startedAt": "2026-10-19T13:06:39Z",
         "status": "completed",
         "steps": [
           {
-            "completedAt": "2026-10-19T10:07:40Z",
+            "completedAt": "2026-10-19T13:06:40Z",
             "conclusion": "success",
             "name": "Set up job",
             "number": 1,
-            "startedAt": "2026-10-19T10:07:40Z",
+            "startedAt": "2026-10-19T13:06:40Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:42Z",
             "conclusion": "success",
             "name": "Read this submission repository",
             "number": 2,
-            "startedAt": "2026-10-19T10:07:40Z",
+            "startedAt": "2026-10-19T13:06:40Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:42Z",
             "conclusion": "success",
             "name": "Show interpreter version",
             "number": 3,
-            "startedAt": "2026-10-19T10:07:43Z",
+            "startedAt": "2026-10-19T13:06:42Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:42Z",
             "conclusion": "success",
             "name": "New synthetic submission checker tests",
             "number": 4,
-            "startedAt": "2026-10-19T10:07:43Z",
+            "startedAt": "2026-10-19T13:06:42Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:43Z",
             "conclusion": "success",
             "name": "Verify saved files and arithmetic, not model execution",
             "number": 5,
-            "startedAt": "2026-10-19T10:07:43Z",
+            "startedAt": "2026-10-19T13:06:42Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:43Z",
             "conclusion": "success",
             "name": "Post Read this submission repository",
             "number": 10,
-            "startedAt": "2026-10-19T10:07:43Z",
+            "startedAt": "2026-10-19T13:06:43Z",
             "status": "completed"
           },
           {
-            "completedAt": "2026-10-19T10:07:43Z",
+            "completedAt": "2026-10-19T13:06:43Z",
             "conclusion": "success",
             "name": "Complete job",
             "number": 11,
-            "startedAt": "2026-10-19T10:07:43Z",
+            "startedAt": "2026-10-19T13:06:43Z",
             "status": "completed"
           }
         ],
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39235171659/job/118002381031"
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39257362767/job/118075903517"
       }
     ],
     "status": "completed",
-    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39235171659"
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39257362767"
+  },
+  "historical_release_receipts": {
+    "v1.0.0-teacher": "reproducibility/cloud_verification_v1.0.0.json",
+    "v1.1.0-teacher": "reproducibility/cloud_verification_v1.1.0.json"
   },
   "release": {
     "created": true,
-    "tag": "v1.1.0-teacher",
-    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/tag/v1.1.0-teacher",
-    "target_commit": "225d98609acb9c1f4b15428d391cca280a44a626",
+    "tag": "v1.2.0-teacher",
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/tag/v1.2.0-teacher",
+    "target_commit": "fc1f7eff3845ecfcdcf474e81cbc869f899bdd1e",
     "assets": [
       {
-        "id": 655963046,
-        "name": "PathMNIST_AI_Practice_Submission_Public_20261019.zip",
-        "bytes": 44884399,
-        "sha256": "f4def805795218a47c8e346623fe68bda27f9c8c962b27272fb777265b79db98",
-        "github_digest": "sha256:f4def805795218a47c8e346623fe68bda27f9c8c962b27272fb777265b79db98",
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.1.0-teacher/PathMNIST_AI_Practice_Submission_Public_20261019.zip",
+        "id": 656316879,
+        "name": "PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
+        "bytes": 45031786,
+        "sha256": "793f95ab5dd43c3284992034830f0b1070d0bc389974fb8bed69b6b675b1ce72",
+        "github_digest": "sha256:793f95ab5dd43c3284992034830f0b1070d0bc389974fb8bed69b6b675b1ce72",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
         "anonymous_download_status": 200,
         "anonymous_download_matches": true,
         "authentication_used": false
       },
       {
-        "id": 655963681,
+        "id": 656317618,
         "name": "PathMNIST_FP32_Demo_20261019.zip",
         "bytes": 6160758,
         "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
         "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.1.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
         "anonymous_download_status": 200,
         "anonymous_download_matches": true,
         "authentication_used": false
       },
       {
-        "id": 655963770,
+        "id": 656317871,
         "name": "SHA256SUMS.txt",
-        "bytes": 218,
-        "sha256": "920ca39acbb8fc0bddf949bc45c78bc5f94f709cf3ea6bc1378445b8820e6c4a",
-        "github_digest": "sha256:920ca39acbb8fc0bddf949bc45c78bc5f94f709cf3ea6bc1378445b8820e6c4a",
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.1.0-teacher/SHA256SUMS.txt",
+        "bytes": 217,
+        "sha256": "2c9205ab32c631e57378a0f90a7bbacfd37db996a29ed08bdb42baeb91aa147a",
+        "github_digest": "sha256:2c9205ab32c631e57378a0f90a7bbacfd37db996a29ed08bdb42baeb91aa147a",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/SHA256SUMS.txt",
         "anonymous_download_status": 200,
         "anonymous_download_matches": true,
         "authentication_used": false
       }
     ],
-    "asset_hashes_document": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.1.0-teacher/SHA256SUMS.txt",
+    "asset_hashes_document": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/SHA256SUMS.txt",
     "uploaded_and_download_verified": true
   },
-  "materials_commit": "225d98609acb9c1f4b15428d391cca280a44a626",
-  "material_ci": {
-    "conclusion": "success",
-    "databaseId": 39237994879,
-    "headSha": "225d98609acb9c1f4b15428d391cca280a44a626",
-    "jobs": [
-      {
-        "completedAt": "2026-10-19T10:31:02Z",
-        "conclusion": "success",
-        "databaseId": 118011660317,
-        "name": "submission-only",
-        "startedAt": "2026-10-19T10:30:54Z",
-        "status": "completed",
-        "steps": [
-          {
-            "completedAt": "2026-10-19T10:30:56Z",
-            "conclusion": "success",
-            "name": "Set up job",
-            "number": 1,
-            "startedAt": "2026-10-19T10:30:55Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:30:59Z",
-            "conclusion": "success",
-            "name": "Read this submission repository",
-            "number": 2,
-            "startedAt": "2026-10-19T10:30:56Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:30:59Z",
-            "conclusion": "success",
-            "name": "Show interpreter version",
-            "number": 3,
-            "startedAt": "2026-10-19T10:30:59Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:30:59Z",
-            "conclusion": "success",
-            "name": "New synthetic submission checker tests",
-            "number": 4,
-            "startedAt": "2026-10-19T10:30:59Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:31:00Z",
-            "conclusion": "success",
-            "name": "Verify saved files and arithmetic, not model execution",
-            "number": 5,
-            "startedAt": "2026-10-19T10:30:59Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:31:00Z",
-            "conclusion": "success",
-            "name": "Post Read this submission repository",
-            "number": 10,
-            "startedAt": "2026-10-19T10:31:00Z",
-            "status": "completed"
-          },
-          {
-            "completedAt": "2026-10-19T10:31:00Z",
-            "conclusion": "success",
-            "name": "Complete job",
-            "number": 11,
-            "startedAt": "2026-10-19T10:31:00Z",
-            "status": "completed"
-          }
-        ],
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39237994879/job/118011660317"
-      }
-    ],
-    "status": "completed",
-    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39237994879"
+  "current_revision_scope": {
+    "checker_unit_tests": 21,
+    "file_manifest_entries": 345,
+    "immutable_source_records": 236,
+    "new_formal_training": 0,
+    "new_model_inference": 0,
+    "official_test_inference": 0,
+    "new_browser_cases": 0,
+    "checks": "document coverage, saved-file arithmetic, protected hashes and rendering only"
   },
-  "release_download_verification_previous": {
-    "status": "passed",
-    "recorded_at_utc": "2026-10-19T10:14:12.790628+00:00",
-    "assets": [
-      {
-        "name": "PathMNIST_AI_Practice_Submission_20261019.zip",
-        "bytes": 44734358,
-        "sha256": "592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
-        "github_digest": "sha256:592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_AI_Practice_Submission_20261019.zip",
-        "downloaded_and_compared": true
-      },
-      {
-        "name": "PathMNIST_FP32_Demo_20261019.zip",
-        "bytes": 6160758,
-        "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
-        "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
-        "downloaded_and_compared": true
-      },
-      {
-        "name": "SHA256SUMS.txt",
-        "bytes": 211,
-        "sha256": "e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
-        "github_digest": "sha256:e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
-        "download_exit_code": 0,
-        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
-        "downloaded_and_compared": true
-      }
-    ],
-    "freshly_extracted_full_package_strict_check": {
-      "exit_code": 0,
-      "scope": "file/hash/saved-result arithmetic; no extra model inference"
-    },
-    "api_note": "GitHub normalized the original Chinese asset name; ASCII published name and checksum document were aligned via REST after gh release subcommands returned a malformed-response error."
+  "historical_runtime_acceptance": {
+    "assets": 11,
+    "runtime_checks": 20,
+    "browser_cases": 4,
+    "rerun_in_this_revision": false,
+    "sources": "reproducibility/report_sync_sources.json"
   },
+  "teacher_access": "anonymous repository, commit-specific README and all release attachments verified; no invitation required",
+  "classroom_device": "not executed; not required by user",
+  "publication_attestation": "The tagged material snapshot is immutable. Later receipt-only commits add exact attachment hashes and download results. The dynamic cloud receipt is excluded from the recursive file manifest.",
+  "original_scientific_repository_private_unchanged": true,
   "release_download_verification": {
     "status": "passed",
     "authentication_used": false,
-    "all_assets_downloaded_and_sha256_matched": true,
-    "freshly_extracted_full_package_strict_check": {
+    "assets": [
+      {
+        "id": 656316879,
+        "name": "PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
+        "bytes": 45031786,
+        "sha256": "793f95ab5dd43c3284992034830f0b1070d0bc389974fb8bed69b6b675b1ce72",
+        "github_digest": "sha256:793f95ab5dd43c3284992034830f0b1070d0bc389974fb8bed69b6b675b1ce72",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
+        "anonymous_download_status": 200,
+        "anonymous_download_matches": true,
+        "authentication_used": false
+      },
+      {
+        "id": 656317618,
+        "name": "PathMNIST_FP32_Demo_20261019.zip",
+        "bytes": 6160758,
+        "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
+        "anonymous_download_status": 200,
+        "anonymous_download_matches": true,
+        "authentication_used": false
+      },
+      {
+        "id": 656317871,
+        "name": "SHA256SUMS.txt",
+        "bytes": 217,
+        "sha256": "2c9205ab32c631e57378a0f90a7bbacfd37db996a29ed08bdb42baeb91aa147a",
+        "github_digest": "sha256:2c9205ab32c631e57378a0f90a7bbacfd37db996a29ed08bdb42baeb91aa147a",
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.2.0-teacher/SHA256SUMS.txt",
+        "anonymous_download_status": 200,
+        "anonymous_download_matches": true,
+        "authentication_used": false
+      }
+    ],
+    "all_sha256_matched": true,
+    "freshly_extracted_package_strict_check": {
       "exit_code": 0,
-      "scope": "file/hash/saved-result arithmetic only; no new model inference"
+      "scope": "file/hash/saved-result arithmetic only; no model or browser execution"
     }
   },
+  "public_access_verification": [
+    {
+      "url": "https://api.github.com/repos/Wenhow1/pathmnist-ai-practice-submission",
+      "status": 200,
+      "bytes": 6146,
+      "authentication_used": false,
+      "private": false,
+      "fork": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Wenhow1/pathmnist-ai-practice-submission/fc1f7eff3845ecfcdcf474e81cbc869f899bdd1e/README.md",
+      "status": 200,
+      "bytes": 4253,
+      "authentication_used": false
+    }
+  ],
   "publication_operations": [
     {
-      "name": "update_materials",
-      "started_at_utc": "2026-10-19T10:27:29.402701+00:00",
-      "ended_at_utc": "2026-10-19T10:27:29.646067+00:00",
+      "name": "sync_reports",
+      "started_at_utc": "2026-10-19T12:51:26.363288+00:00",
+      "ended_at_utc": "2026-10-19T12:51:26.546112+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/update_materials.py"
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/sync_reports.py"
       ],
       "exit_code": 0
     },
     {
       "name": "render_materials",
-      "started_at_utc": "2026-10-19T10:27:56.892548+00:00",
-      "ended_at_utc": "2026-10-19T10:28:05.608898+00:00",
+      "started_at_utc": "2026-10-19T12:52:43.427196+00:00",
+      "ended_at_utc": "2026-10-19T12:52:52.484113+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/render_materials.py"
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/render_materials.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "sync_presentation",
+      "started_at_utc": "2026-10-19T12:53:15.304789+00:00",
+      "ended_at_utc": "2026-10-19T12:53:15.675733+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/sync_presentation.mjs"
+      ],
+      "exit_code": 1
+    },
+    {
+      "name": "sync_presentation_guarded",
+      "started_at_utc": "2026-10-19T12:54:02.668033+00:00",
+      "ended_at_utc": "2026-10-19T12:54:03.032830+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/sync_presentation.mjs"
+      ],
+      "exit_code": 1
+    },
+    {
+      "name": "sync_presentation_fixed_path",
+      "started_at_utc": "2026-10-19T12:54:19.545557+00:00",
+      "ended_at_utc": "2026-10-19T12:54:20.076198+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/sync_presentation.mjs"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "refine_pagination",
+      "started_at_utc": "2026-10-19T12:56:19.978518+00:00",
+      "ended_at_utc": "2026-10-19T12:56:20.237071+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/refine_pagination.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "render_materials_refined",
+      "started_at_utc": "2026-10-19T12:56:52.021980+00:00",
+      "ended_at_utc": "2026-10-19T12:57:02.467843+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/render_materials.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "render_materials_final",
+      "started_at_utc": "2026-10-19T12:59:20.593187+00:00",
+      "ended_at_utc": "2026-10-19T12:59:30.667095+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
+      "argv": [
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/render_materials.py"
       ],
       "exit_code": 0
     },
     {
       "name": "unit_tests",
-      "started_at_utc": "2026-10-19T10:28:13.844769+00:00",
-      "ended_at_utc": "2026-10-19T10:28:13.956983+00:00",
+      "started_at_utc": "2026-10-19T13:00:01.019897+00:00",
+      "ended_at_utc": "2026-10-19T13:00:01.114107+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "python3",
@@ -419,24 +318,20 @@
       "exit_code": 0
     },
     {
-      "operation": "change_new_teacher_repository_visibility",
+      "name": "finalize_records",
+      "started_at_utc": "2026-10-19T13:05:45.192141+00:00",
+      "ended_at_utc": "2026-10-19T13:05:45.740662+00:00",
+      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
-        "gh",
-        "repo",
-        "edit",
-        "Wenhow1/pathmnist-ai-practice-submission",
-        "--visibility",
-        "public",
-        "--accept-visibility-change-consequences"
+        "/Users/wenhowl/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/finalize_records.py"
       ],
-      "exit_code": 0,
-      "verification": "public_access_verification.json",
-      "original_scientific_repository_changed": false
+      "exit_code": 0
     },
     {
       "name": "strict_check",
-      "started_at_utc": "2026-10-19T10:30:35.365825+00:00",
-      "ended_at_utc": "2026-10-19T10:30:35.508363+00:00",
+      "started_at_utc": "2026-10-19T13:05:45.997403+00:00",
+      "ended_at_utc": "2026-10-19T13:05:46.171910+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "python3",
@@ -448,9 +343,9 @@
       "exit_code": 0
     },
     {
-      "name": "push_public_materials",
-      "started_at_utc": "2026-10-19T10:30:45.340810+00:00",
-      "ended_at_utc": "2026-10-19T10:30:50.531392+00:00",
+      "name": "push_synced_materials",
+      "started_at_utc": "2026-10-19T13:06:26.282824+00:00",
+      "ended_at_utc": "2026-10-19T13:06:34.550249+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "git",
@@ -461,44 +356,23 @@
       "exit_code": 0
     },
     {
-      "name": "create_public_release",
-      "started_at_utc": "2026-10-19T10:31:21.628255+00:00",
-      "ended_at_utc": "2026-10-19T10:31:22.506043+00:00",
+      "name": "create_report_sync_release",
+      "started_at_utc": "2026-10-19T13:09:09.157908+00:00",
+      "ended_at_utc": "2026-10-19T13:09:11.432916+00:00",
       "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
       "argv": [
         "gh",
         "release",
         "create",
-        "v1.1.0-teacher",
+        "v1.2.0-teacher",
         "--repo",
         "Wenhow1/pathmnist-ai-practice-submission",
         "--target",
-        "225d986",
+        "fc1f7eff3845ecfcdcf474e81cbc869f899bdd1e",
         "--title",
-        "PathMNIST AI工程实践：公开提交与成员分工版",
+        "PathMNIST AI工程实践：报告与发布过程同步版",
         "--notes-file",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/release_notes.md"
-      ],
-      "exit_code": 1
-    },
-    {
-      "name": "create_public_release_full_sha",
-      "started_at_utc": "2026-10-19T10:31:31.804617+00:00",
-      "ended_at_utc": "2026-10-19T10:31:33.211919+00:00",
-      "cwd": "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/pathmnist-ai-practice-submission",
-      "argv": [
-        "gh",
-        "release",
-        "create",
-        "v1.1.0-teacher",
-        "--repo",
-        "Wenhow1/pathmnist-ai-practice-submission",
-        "--target",
-        "225d98609acb9c1f4b15428d391cca280a44a626",
-        "--title",
-        "PathMNIST AI工程实践：公开提交与成员分工版",
-        "--notes-file",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/release_notes.md"
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/release_notes.md"
       ],
       "exit_code": 0
     },
@@ -509,15 +383,14 @@
         "api",
         "--method",
         "POST",
-        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417166156/assets?name=PathMNIST_AI_Practice_Submission_Public_20261019.zip",
+        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417305281/assets?name=PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
         "--header",
         "Content-Type: application/octet-stream",
         "--input",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/release_assets/PathMNIST_AI_Practice_Submission_Public_20261019.zip",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/release_assets/PathMNIST_AI_Practice_Report_Sync_v1.2_20261019.zip",
         "--jq",
         "{id,name,size,digest,browser_download_url}"
       ],
-      "started_at_utc": "2026-10-19T10:32:26.916639+00:00",
       "exit_code": 0
     },
     {
@@ -527,15 +400,14 @@
         "api",
         "--method",
         "POST",
-        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417166156/assets?name=PathMNIST_FP32_Demo_20261019.zip",
+        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417305281/assets?name=PathMNIST_FP32_Demo_20261019.zip",
         "--header",
         "Content-Type: application/octet-stream",
         "--input",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/release_assets/PathMNIST_FP32_Demo_20261019.zip",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/release_assets/PathMNIST_FP32_Demo_20261019.zip",
         "--jq",
         "{id,name,size,digest,browser_download_url}"
       ],
-      "started_at_utc": "2026-10-19T10:32:46.645976+00:00",
       "exit_code": 0
     },
     {
@@ -545,20 +417,16 @@
         "api",
         "--method",
         "POST",
-        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417166156/assets?name=SHA256SUMS.txt",
+        "https://uploads.github.com/repos/Wenhow1/pathmnist-ai-practice-submission/releases/417305281/assets?name=SHA256SUMS.txt",
         "--header",
         "Content-Type: application/octet-stream",
         "--input",
-        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_公开提交修订_20261019/release_assets/SHA256SUMS.txt",
+        "/Users/wenhowl/Documents/2026 秋课程作业/工程实践/PathMNIST_报告同步修订_20261019/release_assets/SHA256SUMS.txt",
         "--jq",
         "{id,name,size,digest,browser_download_url}"
       ],
-      "started_at_utc": "2026-10-19T10:32:49.883528+00:00",
       "exit_code": 0
     }
   ],
-  "resolved_publishing_issue": "The initial release creation with a short commit prefix returned 422. Retrying with the full material commit SHA succeeded; no prior Release or scientific data was changed.",
-  "historical_v1_1_receipt": "reproducibility/cloud_verification_v1.1.0.json",
-  "current_document_revision": "v1.2.0-teacher",
-  "current_revision_status": "local material synchronization in progress; exact new CI/release recorded after execution"
+  "updated_at_utc": "2026-10-19T13:11:43.596411+00:00"
 }
