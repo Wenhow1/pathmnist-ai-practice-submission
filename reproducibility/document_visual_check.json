@@ -1,71 +1,71 @@
 {
-  "revision": "v1.1-public-roster",
+  "revision": "v1.2.0-teacher",
   "reports": {
     "01_AI工程实践主报告": {
-      "pages": 18,
-      "pdf_sha256": "1824e024ff066ddde326c886a453b97a7fe0100b1b029161fb4e1605c9f8ca65",
-      "docx_sha256": "a47383482c62c49554b7ea8c1e2cc631d97752e10e30a84211e02b65dd693ac8",
-      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "pages": 20,
+      "pdf_sha256": "efc6df2e051df55d915d183be9d42270b854293bad8bbdb8658a42d42a3f06d6",
+      "docx_sha256": "d358477dfac697560bc86db1c031d1a735e4085d8d5a02b33baa8fbfa287c665",
+      "visual_review": "all-page contact sheets and targeted full-size review of added/modified pages",
       "affected_pages": [
-        1,
         2,
-        10,
-        12,
-        16,
-        17,
-        18
+        11,
+        18,
+        19
       ]
     },
     "02_数据集探索笔记": {
       "pages": 6,
-      "pdf_sha256": "e7b130acc8bdb08a8b6433b3f4ffc1b25593fda9e530fb1a89ec375da873d752",
-      "docx_sha256": "64bb5f53717153836041b57552008ba6f972e7cdc9047fbdeda5fa8c8c3334b4",
-      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "pdf_sha256": "9a63d46a751afdb9795dc88576fade93aea717ce3ab666b7d5f165614c2bfe22",
+      "docx_sha256": "ebba12fcee65eaf3ac186f46e3f1a1d78ef38851ac03f51be0724b50b1b27801",
+      "visual_review": "all-page contact sheets and targeted full-size review of added/modified pages",
       "affected_pages": [
-        5
+        1
       ]
     },
     "03_AI使用日志与交互案例": {
-      "pages": 8,
-      "pdf_sha256": "e8a66ad71b186a8d26e8440a2d2823d6af2e32406201a43cf35f903bf94579cb",
-      "docx_sha256": "23ee3266088e63172ee4a82d4bad8485c9601f3f0996c647b78c531b1d9f323e",
-      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "pages": 9,
+      "pdf_sha256": "044342318e8c63b06a3e32f071895b0e4f2f2fbfeb9ece23f83e7dbb15a3fec5",
+      "docx_sha256": "189c3d17cfa902e2ca9bb0498aefc88b5a3913fe63de1caa262d66f01065983d",
+      "visual_review": "all-page contact sheets and targeted full-size review of added/modified pages",
       "affected_pages": [
-        2,
         8
       ]
     },
     "04_模型与工程评估报告": {
-      "pages": 24,
-      "pdf_sha256": "64e8961448b098f8b6b1456f05a5ddfbed47ed6fe1e64ad6417f8fc1002d2d8c",
-      "docx_sha256": "484371aa3bcbbcf78982b62f0a979865f95594432b73068a5ae42b9fef1f2e70",
-      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "pages": 25,
+      "pdf_sha256": "4984b163c4520ec977d22cec6828e304480ab80daacc713381f333cdcc07af3b",
+      "docx_sha256": "0232a9d920835b6824f6417764d12c5dfa302ac9b60438799c173a28d874119d",
+      "visual_review": "all-page contact sheets and targeted full-size review of added/modified pages",
       "affected_pages": [
         1,
+        4,
         17,
-        18
+        19,
+        23,
+        25
       ]
     }
   },
-  "renderer": "bundled macOS LibreOffice with task-local official Noto CJK fonts",
-  "render_compatibility": "temporary copies scale auto line metrics by 0.7866; delivered DOCX styles unchanged",
+  "renderer": "bundled LibreOffice; task-local official Noto CJK font configuration",
+  "render_compatibility": "temporary render copies scale auto line metrics by 0.7866; delivered DOCX geometry and styles retained",
   "presentation": {
     "slides": 30,
     "hidden": 4,
     "notes": 30,
-    "visible_changed_slides": [
-      1,
-      21,
-      22,
-      24,
-      25,
+    "changed_visible_slides": [
+      10
+    ],
+    "changed_notes": [
+      10,
+      26,
       30
     ],
-    "visual_review_changed_slides": "passed after cover roster two-line fix",
-    "all_scientific_figures_and_numbers_unchanged": true,
-    "pptx_sha256": "75e330cb32157d45d4b813daf300afc7f880c41efbe164ea6bb45f1dd1676451",
-    "pdf_sha256": "3f5f6957b146bb2d3a7d16eaff6e34473861b544a54e05c44e072c837768d02e"
+    "visual_review": "passed",
+    "all_scientific_slide_values_and_images_unchanged": true,
+    "pptx_sha256": "2b5331fb4e8e35cac0eb119bc179eec89d38b10985a726e7c116a2b617cd83ac",
+    "pdf_sha256": "db135230f3d57b5462caa901c243f91fe9d19d2f51869dfd54ff9ce1c14c2b25"
   },
-  "native_powerpoint_wps_or_classroom": "not executed; not required by user",
-  "new_model_inference": 0
+  "artifact_tool_path_import": "unavailable without missing Node API entry; not counted as passed; OOXML and LibreOffice checks used",
+  "native_word_powerpoint_wps": "not tested",
+  "classroom_projection": "not required by user; not tested"
 }

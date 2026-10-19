@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "scope": "static document coverage, preserved-file arithmetic and rendered-content checks; not application/model/device acceptance",
+  "baseline_teacher_head": "80e36d4e230cefffe523442932d79b58621540ed",
+  "revision": "v1.2.0-teacher",
+  "items": [
+    {
+      "id": "C01",
+      "requirement": "PPT第10页成员状态",
+      "status": "passed",
+      "location": "PPT 10；备注、JSON与讲稿同步"
+    },
+    {
+      "id": "C02",
+      "requirement": "技术附件版本与推理时间范围",
+      "status": "passed",
+      "location": "技术附件第1页"
+    },
+    {
+      "id": "C03",
+      "requirement": "工具范围与现附件名称",
+      "status": "passed",
+      "location": "技术附件第7章与9.2节"
+    },
+    {
+      "id": "C04",
+      "requirement": "课堂设备不作为提交条件",
+      "status": "passed",
+      "location": "技术附件版本说明"
+    },
+    {
+      "id": "C05",
+      "requirement": "历史与新副本验收衔接",
+      "status": "passed",
+      "location": "AI附件第6节关联案例"
+    },
+    {
+      "id": "C06",
+      "requirement": "PPT第26/30页旧备注",
+      "status": "passed",
+      "location": "PPT 26、30；对应JSON与讲稿"
+    },
+    {
+      "id": "C07",
+      "requirement": "保留私有建库历史并追加公开状态",
+      "status": "passed",
+      "location": "发布接手记录末尾追加"
+    },
+    {
+      "id": "U01",
+      "requirement": "发布交接完整案例",
+      "status": "passed",
+      "location": "主报告7.4，第18页"
+    },
+    {
+      "id": "U02",
+      "requirement": "发布验收分层",
+      "status": "passed",
+      "location": "主报告第11页；技术附件第19页"
+    },
+    {
+      "id": "U03",
+      "requirement": "交接、自动化恢复与固定误例",
+      "status": "passed",
+      "location": "AI附件8.2，第8页"
+    },
+    {
+      "id": "U04",
+      "requirement": "数据来源名称与角色",
+      "status": "passed",
+      "location": "数据笔记第1页"
+    },
+    {
+      "id": "U05",
+      "requirement": "分工保持并补资料入口",
+      "status": "passed",
+      "location": "主报告8.3与成员分工说明"
+    }
+  ],
+  "render_counts": {
+    "01_AI工程实践主报告": 20,
+    "02_数据集探索笔记": 6,
+    "03_AI使用日志与交互案例": 9,
+    "04_模型与工程评估报告": 25
+  },
+  "presentation": {
+    "slides": 30,
+    "hidden": 4,
+    "notes": 30
+  },
+  "current_revision_checker_tests": {
+    "count": 21,
+    "status": "passed",
+    "type": "submission checker synthetic unit tests"
+  },
+  "current_revision_new_model_inference": 0,
+  "current_revision_new_browser_cases": 0,
+  "current_revision_training": 0,
+  "current_revision_official_test_inference": 0,
+  "historical_acceptance_only": {
+    "runtime_assets": 11,
+    "new_copy_checks": 20,
+    "browser_cases": 4,
+    "source": "report_sync_sources.json"
+  },
+  "native_powerpoint_wps_and_classroom": "not executed; not required by user",
+  "ci_and_release_receipt": "cloud_verification.json; exact current material run recorded after actual execution",
+  "checked_at_utc": "2026-10-19T13:05:45.346544+00:00"
+}

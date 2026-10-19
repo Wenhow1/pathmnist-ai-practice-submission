@@ -3,7 +3,7 @@
 | 内容 | 当前状态 | 验收依据 |
 |---|---|---|
 | AI工程实践主报告＋三附件 | 已有Word、Markdown与PDF；发布状态同步 | 导出与页面复核记录 |
-| PPT、全页PDF和讲稿 | 30页、4页隐藏答疑；状态与备注同步 | presentation_status_edits.json |
+| PPT、全页PDF和讲稿 | 30页、4页隐藏答疑；状态与备注同步 | presentation_report_sync.json |
 | 必要代码与历史轻量证据 | 236份原复制来源保持哈希一致 | evidence/source_provenance.json |
 | 原FP32模型与10张PNG | 11份指定字节均已补齐 | runtime_asset_copy.json |
 | 新副本模型行为 | Mac独立环境20项检查通过 | demo_runtime_acceptance.json |
@@ -17,3 +17,5 @@
 | 原科学实验 | 保持既有15次，不新增 | d5e4a71固定证据 |
 
 本库的材料版本与原科学实验版本分开。收到时的完整包保存在archive/received_prepublication_20261019.zip。
+
+报告同步版的逐处改动与验收范围见[报告同步验收记录](reproducibility/报告同步验收记录.md)；该记录区分本轮文稿检查与先前真实模型、浏览器验收。

@@ -1,5 +1,5 @@
 {
-  "material_version": "AI-practice-submission-v1.1-public-roster",
+  "material_version": "AI-practice-submission-v1.2-report-sync",
   "prepared_at_utc": "2026-10-19T05:11:50.667771+00:00",
   "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
   "original_repo": "Wenhow1/pathmnist-tissue-classification",
@@ -44,10 +44,10 @@
   "status_scope": "publication, saved-file arithmetic and separate new-copy runtime; not new formal science",
   "finalized_at_utc": "2026-10-19T05:28:13.148668+00:00",
   "render_counts": {
-    "01_AI工程实践主报告": 18,
+    "01_AI工程实践主报告": 20,
     "02_数据集探索笔记": 6,
-    "03_AI使用日志与交互案例": 8,
-    "04_模型与工程评估报告": 24,
+    "03_AI使用日志与交互案例": 9,
+    "04_模型与工程评估报告": 25,
     "presentation_total": 30,
     "presentation_hidden": 4
   },
@@ -61,7 +61,7 @@
     "scope": "fixed validation examples and negative/format fixtures on Mac arm64; no official test"
   },
   "browser_acceptance": "passed_4_cases",
-  "updated_at_utc": "2026-10-19T10:27:29.639099+00:00",
+  "updated_at_utc": "2026-10-19T13:05:45.346544+00:00",
   "cloud_receipt": "reproducibility/cloud_verification.json",
   "release_status_source": "reproducibility/cloud_verification.json",
   "new_copy_browser_acceptance": {
@@ -97,5 +97,10 @@
   "member_information_source": "user provided names, IDs and role scopes on 2026-10-19; not per-command attribution",
   "classroom_presentation_requirement": "waived_by_user_for_this_submission; not_executed",
   "actual_submission_date": null,
-  "current_revision_new_model_inference": 0
+  "current_revision_new_model_inference": 0,
+  "current_revision_new_browser_cases": 0,
+  "report_sync_source_manifest": "reproducibility/report_sync_sources.json",
+  "report_sync_acceptance": "reproducibility/report_sync_acceptance.json",
+  "current_revision_cloud_ci_receipt": "reproducibility/cloud_verification.json",
+  "historical_runtime_acceptance_note": "The 20 runtime checks and 4 browser cases belong to the initial 2026-10-19 publication acceptance; not rerun in the v1.2 report sync."
 }

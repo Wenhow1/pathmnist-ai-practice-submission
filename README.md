@@ -1,6 +1,6 @@
 # AI辅助医学图像分类的工程实践
 
-**PathMNIST · 研究生工程实践第一阶段 · 教师提交材料 v1.1（公开版）**
+**PathMNIST · 研究生工程实践第一阶段 · 教师提交材料 v1.2（报告同步版）**
 
 **独立教师仓库已公开**：[Wenhow1/pathmnist-ai-practice-submission](https://github.com/Wenhow1/pathmnist-ai-practice-submission)。原仓库保持只读，本库不是Fork。2026-10-19发布接手补齐了原运行资产，并取得新副本验收和真实CI记录。精确提交、Release和CI见[云端回执](reproducibility/cloud_verification.json)。
 
@@ -36,3 +36,5 @@
 PPT共30页：1—25页正文、26页结束／答疑索引、27—30页隐藏附录；本轮不强制十分钟。旧21／23／25页手册不能套用新页码。
 
 成员学号和分工已按小组提供的信息补齐，见[成员分工](ai_workflow/成员分工与贡献说明.md)。实际提交日期由本人提交时填写。本次不要求课堂展示，保留可打开PPT与PDF。没有实施K折、QAT或Claude Code；未记录的专用Skill、无AI开发对照、病理专家或临床验证不编造。
+
+本轮在v1.1公开版上定向同步报告与PPT：补充发布交接案例、分层验收和来源导航，清理当前备注中的旧状态。主报告仍为八章，A—E、冻结模型和原科学证据不变。变更与逐项核对见[报告同步验收记录](reproducibility/报告同步验收记录.md)。

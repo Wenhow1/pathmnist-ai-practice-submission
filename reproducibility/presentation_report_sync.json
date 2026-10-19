@@ -1,0 +1,27 @@
+{
+  "revision": "v1.2.0-teacher",
+  "visible_changed_slides": [
+    10
+  ],
+  "notes_changed_slides": [
+    10,
+    26,
+    30
+  ],
+  "slide_count": 30,
+  "hidden_count": 4,
+  "changed_parts": [
+    "ppt/notesSlides/notesSlide10.xml",
+    "ppt/notesSlides/notesSlide26.xml",
+    "ppt/notesSlides/notesSlide30.xml",
+    "ppt/slides/slide10.xml"
+  ],
+  "unrelated_parts_byte_identical": true,
+  "images_charts_layouts_and_scientific_slide_values_unchanged": true,
+  "artifact_tool_import": {
+    "status": "unavailable",
+    "error": "Error",
+    "message": "Presentation.load(path) is only available after the Node API is installed.\nLoad it with:\n  const { installNode } = await import('@oai/granola/node');\n  installNode();"
+  },
+  "strategy": "targeted OOXML text edits; preserve existing theme, hidden links and note structure; validate with XML package checks and LibreOffice rendering"
+}

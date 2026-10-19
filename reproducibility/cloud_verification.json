@@ -557,5 +557,8 @@
       "exit_code": 0
     }
   ],
-  "resolved_publishing_issue": "The initial release creation with a short commit prefix returned 422. Retrying with the full material commit SHA succeeded; no prior Release or scientific data was changed."
+  "resolved_publishing_issue": "The initial release creation with a short commit prefix returned 422. Retrying with the full material commit SHA succeeded; no prior Release or scientific data was changed.",
+  "historical_v1_1_receipt": "reproducibility/cloud_verification_v1.1.0.json",
+  "current_document_revision": "v1.2.0-teacher",
+  "current_revision_status": "local material synchronization in progress; exact new CI/release recorded after execution"
 }

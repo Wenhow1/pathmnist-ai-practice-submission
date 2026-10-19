@@ -6,7 +6,7 @@
       "name": "file_manifest",
       "status": "passed",
       "detail": {
-        "files_verified": 336,
+        "files_verified": 345,
         "coverage": "enumerated immutable files; dynamic logs excluded"
       }
     },
@@ -188,8 +188,8 @@
       "name": "authored_relative_links",
       "status": "passed",
       "detail": {
-        "links_checked": 65,
-        "files": 21,
+        "links_checked": 79,
+        "files": 22,
         "historical_embedded_source_links_excluded": true,
         "online_access_tested": false
       }

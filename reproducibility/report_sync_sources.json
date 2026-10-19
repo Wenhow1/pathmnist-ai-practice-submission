@@ -1,0 +1,46 @@
+{
+  "baseline_teacher_main": "80e36d4e230cefffe523442932d79b58621540ed",
+  "prior_release": "v1.1.0-teacher",
+  "prior_materials_commit": "225d98609acb9c1f4b15428d391cca280a44a626",
+  "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
+  "new_document_version": "v1.2.0-teacher",
+  "uploaded_checklist_sha256": "b75c5a20a2fd85f765a52d09377bbacf53887ffd54dbbb8267a796ad455d6978",
+  "source_files": [
+    {
+      "path": "reproducibility/runtime_asset_copy.json",
+      "sha256": "dbcbea1f3205c24ebddeba01ce301e42cbca8097fe6004545ee33805956fc736"
+    },
+    {
+      "path": "reproducibility/demo_runtime_acceptance.json",
+      "sha256": "086d171a1bff386371ef9a3f941a8ada2ddaf25d031a371c1d094df4b567f703"
+    },
+    {
+      "path": "reproducibility/browser_acceptance_20261019.json",
+      "sha256": "e7b457989bb7977b0ff2e1149ab55edbab0c1db12e883946d1053a2e53903d36"
+    },
+    {
+      "path": "reproducibility/本轮验收范围.md",
+      "sha256": "feffe9393b0e53a3edffceba2a50a9e1f40853ccc36db89709bcda1349567551"
+    },
+    {
+      "path": "reproducibility/cloud_verification_v1.1.0.json",
+      "sha256": "b76b44f2a83f7d203ac9a35e4e27ba6fdce585ae5f5a3370b58eafa38289c75c"
+    },
+    {
+      "path": "reference/报告同步审阅清单_v1.1.md",
+      "sha256": "b75c5a20a2fd85f765a52d09377bbacf53887ffd54dbbb8267a796ad455d6978"
+    }
+  ],
+  "scope": "read existing evidence and update documents only; no new model or browser execution",
+  "historical_runtime_counts": {
+    "assets": 11,
+    "new_copy_checks": 20,
+    "browser_cases": 4,
+    "checker_unit_tests": 21
+  },
+  "browser_automation_recovery_source_field": "browser_acceptance_20261019.json:automation_note",
+  "fixed_disagreement_source_fields": "demo_runtime_acceptance.json:checks[ten_archived_validation_samples_match_reference].detail.samples[sample_id=val:9082]",
+  "current_revision_model_inference": 0,
+  "current_revision_training": 0,
+  "current_revision_official_test_inference": 0
+}
