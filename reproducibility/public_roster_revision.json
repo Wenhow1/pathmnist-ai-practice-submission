@@ -1,0 +1,35 @@
+{
+  "previous_material_head": "436713739a6dbe4c68b1d83ba440947140e141db",
+  "user_request_date": "2026-10-19",
+  "members": [
+    {
+      "name": "王张文皓",
+      "student_id": "12615035",
+      "role": "代码与技术实现"
+    },
+    {
+      "name": "赵昱淳",
+      "student_id": "12615027",
+      "role": "项目规划"
+    },
+    {
+      "name": "李以祺",
+      "student_id": "22615003",
+      "role": "后端测试与代码整理"
+    },
+    {
+      "name": "朱逸枫",
+      "student_id": "12615026",
+      "role": "云端维护与报告整理"
+    }
+  ],
+  "visibility_scope": "new teacher repository only; original scientific repository unchanged",
+  "classroom_acceptance": "not required by user; not claimed as passed",
+  "scientific_changes": false,
+  "training": 0,
+  "official_test_inference": 0,
+  "new_model_inference": 0,
+  "previous_release_retained": "v1.0.0-teacher",
+  "chat_screenshot_published": false,
+  "preserved": "all original evidence/source copy records and portable demo bytes"
+}

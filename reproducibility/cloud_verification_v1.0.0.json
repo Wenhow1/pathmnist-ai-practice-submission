@@ -1,0 +1,251 @@
+{
+  "repository": {
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission",
+    "private": true,
+    "fork": false
+  },
+  "materials_commit": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
+  "material_ci": {
+    "conclusion": "success",
+    "databaseId": 39235171659,
+    "headSha": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
+    "jobs": [
+      {
+        "completedAt": "2026-10-19T10:07:46Z",
+        "conclusion": "success",
+        "databaseId": 118002381031,
+        "name": "submission-only",
+        "startedAt": "2026-10-19T10:07:39Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T10:07:40Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T10:07:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "Read this submission repository",
+            "number": 2,
+            "startedAt": "2026-10-19T10:07:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "Show interpreter version",
+            "number": 3,
+            "startedAt": "2026-10-19T10:07:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "New synthetic submission checker tests",
+            "number": 4,
+            "startedAt": "2026-10-19T10:07:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "Verify saved files and arithmetic, not model execution",
+            "number": 5,
+            "startedAt": "2026-10-19T10:07:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "Post Read this submission repository",
+            "number": 10,
+            "startedAt": "2026-10-19T10:07:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T10:07:43Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 11,
+            "startedAt": "2026-10-19T10:07:43Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39235171659/job/118002381031"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39235171659"
+  },
+  "earlier_ci": {
+    "conclusion": "success",
+    "createdAt": "2026-10-19T09:49:53Z",
+    "databaseId": 39232986516,
+    "headSha": "6c6f5c8607219a754b6a23b9fd1f03238d6264c2",
+    "jobs": [
+      {
+        "completedAt": "2026-10-19T09:50:03Z",
+        "conclusion": "success",
+        "databaseId": 117995201500,
+        "name": "submission-only",
+        "startedAt": "2026-10-19T09:49:56Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-19T09:49:57Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-19T09:49:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "Read this submission repository",
+            "number": 2,
+            "startedAt": "2026-10-19T09:49:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "Show interpreter version",
+            "number": 3,
+            "startedAt": "2026-10-19T09:50:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "New synthetic submission checker tests",
+            "number": 4,
+            "startedAt": "2026-10-19T09:50:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "Verify saved files and arithmetic, not model execution",
+            "number": 5,
+            "startedAt": "2026-10-19T09:50:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "Post Read this submission repository",
+            "number": 10,
+            "startedAt": "2026-10-19T09:50:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-19T09:50:00Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 11,
+            "startedAt": "2026-10-19T09:50:00Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516/job/117995201500"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-10-19T09:50:03Z",
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516"
+  },
+  "release": {
+    "created": true,
+    "tag": "v1.0.0-teacher",
+    "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/tag/v1.0.0-teacher",
+    "target_commit": "a8f44449b6dcc062ce075a654e5d487d2b3cc424",
+    "asset_hashes_document": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
+    "assets": [
+      {
+        "name": "PathMNIST_AI_Practice_Submission_20261019.zip",
+        "bytes": 44734358,
+        "sha256": "592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
+        "github_digest": "sha256:592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_AI_Practice_Submission_20261019.zip",
+        "downloaded_and_compared": true
+      },
+      {
+        "name": "PathMNIST_FP32_Demo_20261019.zip",
+        "bytes": 6160758,
+        "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
+        "downloaded_and_compared": true
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 211,
+        "sha256": "e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
+        "github_digest": "sha256:e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
+        "downloaded_and_compared": true
+      }
+    ],
+    "uploaded_and_download_verified": true
+  },
+  "publication_attestation": "later receipt-only commits may follow this immutable material snapshot",
+  "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
+  "runtime": "20 checks and 4 browser cases, separate validation-only receipts",
+  "teacher_access": "pending_no_username_no_invitation_sent",
+  "classroom_device": "not_tested",
+  "training": 0,
+  "official_test_inference": 0,
+  "recorded_at_utc": "2026-10-19T10:10:29.213604+00:00",
+  "release_download_verification": {
+    "status": "passed",
+    "recorded_at_utc": "2026-10-19T10:14:12.790628+00:00",
+    "assets": [
+      {
+        "name": "PathMNIST_AI_Practice_Submission_20261019.zip",
+        "bytes": 44734358,
+        "sha256": "592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
+        "github_digest": "sha256:592a9cb90a2c81747b157e1cfbc4a56cf994db0b45e3a67622116378859cb40d",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_AI_Practice_Submission_20261019.zip",
+        "downloaded_and_compared": true
+      },
+      {
+        "name": "PathMNIST_FP32_Demo_20261019.zip",
+        "bytes": 6160758,
+        "sha256": "be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "github_digest": "sha256:be58ee39bb2bc3f29292de3db07485c804cfcb887587eef33f2634444b66e21b",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/PathMNIST_FP32_Demo_20261019.zip",
+        "downloaded_and_compared": true
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 211,
+        "sha256": "e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
+        "github_digest": "sha256:e05192f500088afb86a56e17dc5b9fbed7225c6d91fc6307796238ea648e2051",
+        "download_exit_code": 0,
+        "url": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/releases/download/v1.0.0-teacher/SHA256SUMS.txt",
+        "downloaded_and_compared": true
+      }
+    ],
+    "freshly_extracted_full_package_strict_check": {
+      "exit_code": 0,
+      "scope": "file/hash/saved-result arithmetic; no extra model inference"
+    },
+    "api_note": "GitHub normalized the original Chinese asset name; ASCII published name and checksum document were aligned via REST after gh release subcommands returned a malformed-response error."
+  },
+  "original_repository_protection": {
+    "main_before": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
+    "main_after": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
+    "tracked_files_unchanged": 966
+  },
+  "updated_at_utc": "2026-10-19T10:14:12.790628+00:00"
+}

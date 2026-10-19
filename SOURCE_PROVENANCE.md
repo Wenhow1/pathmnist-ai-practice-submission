@@ -3,7 +3,7 @@
 原科学仓库：`Wenhow1/pathmnist-tissue-classification`（只读）。
 科学证据基线：`d5e4a71ff6a9e485fe857792461387f27dc84d1d`。
 本轮读取原main：`e3337732d36a8485c5f22695c9e9ab6dadc61318`，与科学证据基线不是同一个含义。
-新独立私有仓库：`Wenhow1/pathmnist-ai-practice-submission`；真实提交、Release和CI记录见[云端回执](reproducibility/cloud_verification.json)。
+新独立公开教师仓库：`Wenhow1/pathmnist-ai-practice-submission`；真实提交、Release和CI记录见[云端回执](reproducibility/cloud_verification.json)。
 
 来源分三层：
 

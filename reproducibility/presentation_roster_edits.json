@@ -1,0 +1,14 @@
+{
+  "changed_slides": [
+    1,
+    21,
+    22,
+    24,
+    25,
+    30
+  ],
+  "notes_scripts_and_slide_content_json_synchronized": true,
+  "cover": "same existing shape, two centered paragraphs with member IDs; height extended within slide",
+  "template_and_science": "all images, charts, layouts, masters, hidden links and scientific content retained",
+  "previous_version": "v1.0.0-teacher"
+}

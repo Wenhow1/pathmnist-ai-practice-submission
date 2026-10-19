@@ -1,0 +1,8 @@
+{
+  "scope": "all reachable teacher-repository Git blobs and nested archives/OOXML; high-confidence credential patterns; no claim of exhaustive security review",
+  "git_blobs": 349,
+  "archive_members_inspected": 926,
+  "findings": [],
+  "history_head": "436713739a6dbe4c68b1d83ba440947140e141db",
+  "chat_screenshot_added": false
+}

@@ -9,11 +9,11 @@
 | 新副本模型行为 | Mac独立环境20项检查通过 | demo_runtime_acceptance.json |
 | 新副本浏览器行为 | 4项用例通过 | browser_acceptance_20261019.json |
 | 合成提交检查器 | 21项单元测试通过 | unit_tests.log |
-| 独立私有仓库与推送 | 已创建并上传，不是Fork | cloud_verification.json |
+| 独立公开仓库与推送 | 已创建并上传，不是Fork | cloud_verification.json |
 | GitHub Actions | 已有真实成功运行；仅文件与算术 | cloud_verification.json中的run URL |
 | Release及附件 | 实际版本、提交及哈希以发布回执为准 | cloud_verification.json |
-| 教师账号读取／下载 | 待提供账号并实际授权验收 | 未邀请猜测账号 |
-| 课堂投影与原生WPS／PowerPoint | 尚未实际验收 | 由使用者现场检查 |
+| 教师账号读取／下载 | 公开读取，无需邀请 | 未登录访问另有回执 |
+| 课堂投影与原生WPS／PowerPoint | 用户不要求现场展示 | 未执行原生软件／投影验收 |
 | 原科学实验 | 保持既有15次，不新增 | d5e4a71固定证据 |
 
 本库的材料版本与原科学实验版本分开。收到时的完整包保存在archive/received_prepublication_20261019.zip。

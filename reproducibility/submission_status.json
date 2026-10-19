@@ -1,15 +1,15 @@
 {
-  "material_version": "AI-practice-submission-v1.1-publication",
+  "material_version": "AI-practice-submission-v1.1-public-roster",
   "prepared_at_utc": "2026-10-19T05:11:50.667771+00:00",
   "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
   "original_repo": "Wenhow1/pathmnist-tissue-classification",
   "original_main_read": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
   "target_repo": "Wenhow1/pathmnist-ai-practice-submission",
-  "target_visibility": "private",
+  "target_visibility": "public",
   "cloud_repository_created": true,
   "cloud_push_completed": true,
   "github_actions": "passed_actual_run",
-  "teacher_access": "not_tested_no_username",
+  "teacher_access": "public_no_invitation_required",
   "codex_task_created": false,
   "delegation_limitation": "historical preparation limitation only; publication executed in existing authorized Codex chat",
   "local_documents": "generated_and_rendered",
@@ -53,7 +53,7 @@
   },
   "source_copy_records": 236,
   "protected_uploaded_files_checked": 7,
-  "native_user_powerpoint_or_wps_acceptance": "not_executed",
+  "native_user_powerpoint_or_wps_acceptance": "not_executed; not_required_by_user_for_this_submission",
   "local_demo_asset_gate": "passed_strict_11_assets",
   "new_copy_runtime_acceptance": {
     "checks": 20,
@@ -61,7 +61,7 @@
     "scope": "fixed validation examples and negative/format fixtures on Mac arm64; no official test"
   },
   "browser_acceptance": "passed_4_cases",
-  "updated_at_utc": "2026-10-19T09:56:04.379411+00:00",
+  "updated_at_utc": "2026-10-19T10:27:29.639099+00:00",
   "cloud_receipt": "reproducibility/cloud_verification.json",
   "release_status_source": "reproducibility/cloud_verification.json",
   "new_copy_browser_acceptance": {
@@ -71,5 +71,31 @@
     "browser_network": "not globally disabled"
   },
   "cloud_run_initial": "https://github.com/Wenhow1/pathmnist-ai-practice-submission/actions/runs/39232986516",
-  "backup": "archive/received_prepublication_20261019.zip"
+  "backup": "archive/received_prepublication_20261019.zip",
+  "members": [
+    {
+      "name": "王张文皓",
+      "student_id": "12615035",
+      "role": "代码与技术实现"
+    },
+    {
+      "name": "赵昱淳",
+      "student_id": "12615027",
+      "role": "项目规划"
+    },
+    {
+      "name": "李以祺",
+      "student_id": "22615003",
+      "role": "后端测试与代码整理"
+    },
+    {
+      "name": "朱逸枫",
+      "student_id": "12615026",
+      "role": "云端维护与报告整理"
+    }
+  ],
+  "member_information_source": "user provided names, IDs and role scopes on 2026-10-19; not per-command attribution",
+  "classroom_presentation_requirement": "waived_by_user_for_this_submission; not_executed",
+  "actual_submission_date": null,
+  "current_revision_new_model_inference": 0
 }

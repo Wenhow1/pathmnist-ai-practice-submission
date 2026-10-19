@@ -1,12 +1,16 @@
 {
+  "revision": "v1.1-public-roster",
   "reports": {
     "01_AI工程实践主报告": {
       "pages": 18,
-      "sha256": "d6131330dd718cd2438a4bf7b5aabd779355b57e622678075d3a715aa804e931",
-      "normalized_text_matches_original_plus_authorized_status_edits": true,
-      "residual_text_differences": [],
-      "visual_review_changed_pages": [
+      "pdf_sha256": "1824e024ff066ddde326c886a453b97a7fe0100b1b029161fb4e1605c9f8ca65",
+      "docx_sha256": "a47383482c62c49554b7ea8c1e2cc631d97752e10e30a84211e02b65dd693ac8",
+      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "affected_pages": [
+        1,
         2,
+        10,
+        12,
         16,
         17,
         18
@@ -14,47 +18,54 @@
     },
     "02_数据集探索笔记": {
       "pages": 6,
-      "sha256": "f5951152756e2f6af40c80bad1887d71723dfc4c0b5e652de3992cb2e7cf958b",
-      "normalized_text_matches_original_plus_authorized_status_edits": true,
-      "residual_text_differences": [],
-      "visual_review_changed_pages": []
+      "pdf_sha256": "e7b130acc8bdb08a8b6433b3f4ffc1b25593fda9e530fb1a89ec375da873d752",
+      "docx_sha256": "64bb5f53717153836041b57552008ba6f972e7cdc9047fbdeda5fa8c8c3334b4",
+      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "affected_pages": [
+        5
+      ]
     },
     "03_AI使用日志与交互案例": {
       "pages": 8,
-      "sha256": "3f442fcf3be2496feca3b5009d5499af0e0c69f672de840ee8376df4244a988a",
-      "normalized_text_matches_original_plus_authorized_status_edits": true,
-      "residual_text_differences": [],
-      "visual_review_changed_pages": [
-        1,
+      "pdf_sha256": "e8a66ad71b186a8d26e8440a2d2823d6af2e32406201a43cf35f903bf94579cb",
+      "docx_sha256": "23ee3266088e63172ee4a82d4bad8485c9601f3f0996c647b78c531b1d9f323e",
+      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "affected_pages": [
         2,
         8
       ]
     },
     "04_模型与工程评估报告": {
       "pages": 24,
-      "sha256": "cc310f18e1dd7732e51ba70d6495d8d550d1cc0206c6d54f5a87a35967775cc9",
-      "normalized_text_matches_original_plus_authorized_status_edits": true,
-      "residual_text_differences": [],
-      "visual_review_changed_pages": [
-        22
+      "pdf_sha256": "64e8961448b098f8b6b1456f05a5ddfbed47ed6fe1e64ad6417f8fc1002d2d8c",
+      "docx_sha256": "484371aa3bcbbcf78982b62f0a979865f95594432b73068a5ae42b9fef1f2e70",
+      "visual_review": "all pages in contact sheets, affected roster/status pages checked",
+      "affected_pages": [
+        1,
+        17,
+        18
       ]
     }
   },
-  "renderer": "bundled macOS LibreOffice; official Noto CJK fonts in task-local fontconfig",
-  "render_compatibility": "temporary render copies scale auto line metrics by 0.7866 to reproduce source Linux pagination; deliverable DOCX styles unchanged",
-  "native_word_or_wps_layout": "not_tested",
+  "renderer": "bundled macOS LibreOffice with task-local official Noto CJK fonts",
+  "render_compatibility": "temporary copies scale auto line metrics by 0.7866; delivered DOCX styles unchanged",
   "presentation": {
     "slides": 30,
     "hidden": 4,
+    "notes": 30,
     "visible_changed_slides": [
+      1,
       21,
       22,
-      23,
-      25
+      24,
+      25,
+      30
     ],
-    "changed_slide_visual_review": "passed",
-    "all_other_slide_and_image_parts_byte_identical": true,
-    "pdf_sha256": "a2707fb1830285323a8a9cbe0cfbab4bf47d14e7581a5f6905fbd3876cd1e7fb",
-    "pptx_sha256": "89b537f4288e09400f6c84be1ab8a6bd39f19c4c57c115c10685fef8c5c544a4"
-  }
+    "visual_review_changed_slides": "passed after cover roster two-line fix",
+    "all_scientific_figures_and_numbers_unchanged": true,
+    "pptx_sha256": "75e330cb32157d45d4b813daf300afc7f880c41efbe164ea6bb45f1dd1676451",
+    "pdf_sha256": "3f5f6957b146bb2d3a7d16eaff6e34473861b544a54e05c44e072c837768d02e"
+  },
+  "native_powerpoint_wps_or_classroom": "not executed; not required by user",
+  "new_model_inference": 0
 }

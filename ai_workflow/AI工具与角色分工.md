@@ -9,4 +9,4 @@
 | Codex | 仓库与终端实现、运行、测试和留档 | 不将AI目视当病理专家复核 |
 | DeepSeek网页 | 第六阶段量化风险与草稿 | 不将另一AI审查当独立模型实验 |
 
-未使用Claude Code；未取得项目专用local/global Skill历史调用证据。用户工作区之外的当前对话没有可创建Codex任务或GitHub写入接口。
+未使用Claude Code；未取得项目专用local/global Skill历史调用证据。准备包的写作会话曾无GitHub写入接口；发布接手已在当前授权会话完成上传与CI，不回写训练期历史。小组职责另见[成员分工](成员分工与贡献说明.md)。

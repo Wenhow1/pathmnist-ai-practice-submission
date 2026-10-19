@@ -1,15 +1,15 @@
 # AI辅助医学图像分类的工程实践
 
-**PathMNIST · 研究生工程实践第一阶段 · 教师提交材料 v1**
+**PathMNIST · 研究生工程实践第一阶段 · 教师提交材料 v1.1（公开版）**
 
-**独立私有教师仓库已创建并上传**：[Wenhow1/pathmnist-ai-practice-submission](https://github.com/Wenhow1/pathmnist-ai-practice-submission)。原仓库保持只读，本库不是Fork。2026-10-19发布接手补齐了原运行资产，并取得新副本验收和真实CI记录。精确提交、Release和CI见[云端回执](reproducibility/cloud_verification.json)。
+**独立教师仓库已公开**：[Wenhow1/pathmnist-ai-practice-submission](https://github.com/Wenhow1/pathmnist-ai-practice-submission)。原仓库保持只读，本库不是Fork。2026-10-19发布接手补齐了原运行资产，并取得新副本验收和真实CI记录。精确提交、Release和CI见[云端回执](reproducibility/cloud_verification.json)。
 
 ## 从这里阅读
 
 | 目的 | 入口 |
 |---|---|
 | 先看课程主线 | [教师阅读与运行入口](00_教师阅读入口.md) |
-| 看课堂汇报 | [30页PPT](presentation/PathMNIST_AI工程实践汇报_教师提交版.pptx) · [全页PDF](presentation/PathMNIST_AI工程实践汇报_全页预览.pdf) |
+| 看提交PPT | [30页PPT](presentation/PathMNIST_AI工程实践汇报_教师提交版.pptx) · [全页PDF](presentation/PathMNIST_AI工程实践汇报_全页预览.pdf) |
 | 看完整过程 | [AI工程实践主报告PDF](reports/01_AI工程实践主报告.pdf) · [Word](reports/01_AI工程实践主报告.docx) |
 | 查数据 | [数据集探索笔记](reports/02_数据集探索笔记.pdf) |
 | 查交互 | [AI使用日志与交互案例](reports/03_AI使用日志与交互案例.pdf) · [原始来源索引](reference/来源编号与阅读索引.md) |
@@ -30,9 +30,9 @@
 - 文稿、PPT、来源快照、提交检查脚本和CI配置：已在当前目录准备。
 - 当前可执行的本地核查：只检查保存文件和确定性算术，不导入训练框架、不推理模型。
 - 新副本运行：独立Mac arm64环境，命令行由操作系统禁止网络，20项检查通过；浏览器另外完成4项用例。见[运行回执](reproducibility/demo_runtime_acceptance.json)和[界面回执](reproducibility/browser_acceptance_20261019.json)。
-- 私有仓库和推送已完成，真实Actions已通过；只检查文件、哈希与保存结果算术。Release的发布提交、附件及哈希单独保存在云端回执。教师账号尚未提供，未邀请或验收教师访问。
+- 公开仓库和推送已完成，真实Actions已通过；只检查文件、哈希与保存结果算术。Release的发布提交、附件及哈希单独保存在云端回执。公开阅读无需账号邀请；未登录访问见云端回执。
 - 本目录直接包含 `demo/portable_demo/model/fp32.onnx` 与10张固定验证PNG，基本演示不依赖原仓库权限。安装依赖仍需网络或另备离线安装包。
 
 PPT共30页：1—25页正文、26页结束／答疑索引、27—30页隐藏附录；本轮不强制十分钟。旧21／23／25页手册不能套用新页码。
 
-学号、实际提交日期和每位成员贡献由本人填写。没有实施K折、QAT或Claude Code；未记录的专用Skill、无AI开发对照、病理专家或临床验证不编造。
+成员学号和分工已按小组提供的信息补齐，见[成员分工](ai_workflow/成员分工与贡献说明.md)。实际提交日期由本人提交时填写。本次不要求课堂展示，保留可打开PPT与PDF。没有实施K折、QAT或Claude Code；未记录的专用Skill、无AI开发对照、病理专家或临床验证不编造。
