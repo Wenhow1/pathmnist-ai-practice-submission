@@ -1,0 +1,26 @@
+test_absolute_path (test_checks.Checks.test_absolute_path) ... ok
+test_bool_count (test_checks.Checks.test_bool_count) ... ok
+test_boolean_metric (test_checks.Checks.test_boolean_metric) ... ok
+test_count (test_checks.Checks.test_count) ... ok
+test_digest_change (test_checks.Checks.test_digest_change) ... ok
+test_empty (test_checks.Checks.test_empty) ... ok
+test_errors (test_checks.Checks.test_errors) ... ok
+test_float_count (test_checks.Checks.test_float_count) ... ok
+test_identity (test_checks.Checks.test_identity) ... ok
+test_json_nan (test_checks.Checks.test_json_nan) ... ok
+test_metric (test_checks.Checks.test_metric) ... ok
+test_metric_error (test_checks.Checks.test_metric_error) ... ok
+test_missing_seeds (test_checks.Checks.test_missing_seeds) ... ok
+test_negative (test_checks.Checks.test_negative) ... ok
+test_nonfinite (test_checks.Checks.test_nonfinite) ... ok
+test_parent_path (test_checks.Checks.test_parent_path) ... ok
+test_safe_path (test_checks.Checks.test_safe_path) ... ok
+test_symlink_escape (test_checks.Checks.test_symlink_escape) ... ok
+test_validation_selection_not_test (test_checks.Checks.test_validation_selection_not_test) ... ok
+test_windows_path (test_checks.Checks.test_windows_path) ... ok
+test_wrong_shape (test_checks.Checks.test_wrong_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.002s
+
+OK

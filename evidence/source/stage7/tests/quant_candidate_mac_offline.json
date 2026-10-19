@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "kind": "new hybrid PTQ actual CPU model / 10 existing validation PNGs / OS external network denied",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "runtime": "1.31.0",
+  "torch_installed": false,
+  "model_sha256": "56af9972003cb4c4441104d294ed1412703be2a88fd13af83ed6e62439ab34c0",
+  "real_validation_image_inferences": 10,
+  "test_image_inferences": 0,
+  "checks": [
+    {
+      "sample_id": "val:0",
+      "predicted": 5,
+      "max_abs": 0.0,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:9082",
+      "predicted": 4,
+      "max_abs": 1.6543612251060553e-24,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:1",
+      "predicted": 0,
+      "max_abs": 2.5849394142282115e-26,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:2",
+      "predicted": 1,
+      "max_abs": 0.0,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:12",
+      "predicted": 2,
+      "max_abs": 0.0,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:6",
+      "predicted": 3,
+      "max_abs": 2.0194839173657902e-28,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:5",
+      "predicted": 4,
+      "max_abs": 0.0,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:8",
+      "predicted": 6,
+      "max_abs": 0.0,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:3",
+      "predicted": 7,
+      "max_abs": 6.728104396946932e-07,
+      "status": "passed"
+    },
+    {
+      "sample_id": "val:7",
+      "predicted": 8,
+      "max_abs": 2.5849394142282115e-26,
+      "status": "passed"
+    }
+  ],
+  "default_fp32_unchanged": true,
+  "scope": "audit_only; not independent full hybrid app or clinical validation"
+}

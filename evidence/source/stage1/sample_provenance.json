@@ -1,0 +1,38 @@
+[
+  {
+    "class": 0,
+    "sample_id": "train:0"
+  },
+  {
+    "class": 1,
+    "sample_id": "train:14"
+  },
+  {
+    "class": 2,
+    "sample_id": "train:9"
+  },
+  {
+    "class": 3,
+    "sample_id": "train:6"
+  },
+  {
+    "class": 4,
+    "sample_id": "train:1"
+  },
+  {
+    "class": 5,
+    "sample_id": "train:3"
+  },
+  {
+    "class": 6,
+    "sample_id": "train:44"
+  },
+  {
+    "class": 7,
+    "sample_id": "train:2"
+  },
+  {
+    "class": 8,
+    "sample_id": "train:5"
+  }
+]

@@ -1,0 +1,324 @@
+{
+  "status": "passed",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "cwd": "/private/var/folders/rn/shlbxf_91wq849j9v0sgbzdw0000gn/T/pathmnist_offline_ksascxs9",
+  "relocated_root": "/var/folders/rn/shlbxf_91wq849j9v0sgbzdw0000gn/T/pathmnist_offline_ksascxs9/demo",
+  "PYTHONPATH": null,
+  "torch_installed": false,
+  "real_image_inferences": 10,
+  "synthetic_image_inferences": 3,
+  "total_inferences": 13,
+  "training_runs": 0,
+  "official_test_inferences": 0,
+  "checks": [
+    {
+      "name": "OS network denied",
+      "kind": "real OS constraint",
+      "status": "passed",
+      "detail": "OS sandbox denied outbound network"
+    },
+    {
+      "name": "val:0",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:0",
+        "prediction": 5,
+        "given": 5,
+        "max_abs_probability_difference": 2.6754205517676155e-09,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 2.645208005560562,
+          "decode_preprocess_forward_probability": 11.700874994858168
+        }
+      }
+    },
+    {
+      "name": "val:9082",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:9082",
+        "prediction": 4,
+        "given": 7,
+        "max_abs_probability_difference": 5.124910352240965e-08,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.6399169981013983,
+          "decode_preprocess_forward_probability": 2.2040000039851293
+        }
+      }
+    },
+    {
+      "name": "val:1",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:1",
+        "prediction": 0,
+        "given": 0,
+        "max_abs_probability_difference": 5.70984814984854e-10,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.5861660067457706,
+          "decode_preprocess_forward_probability": 2.0380830101203173
+        }
+      }
+    },
+    {
+      "name": "val:2",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:2",
+        "prediction": 1,
+        "given": 1,
+        "max_abs_probability_difference": 1.958697426474032e-09,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.574499998241663,
+          "decode_preprocess_forward_probability": 1.9174170010956004
+        }
+      }
+    },
+    {
+      "name": "val:12",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:12",
+        "prediction": 2,
+        "given": 2,
+        "max_abs_probability_difference": 1.8183055061626874e-10,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.5625000087311491,
+          "decode_preprocess_forward_probability": 2.0435839978745207
+        }
+      }
+    },
+    {
+      "name": "val:6",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:6",
+        "prediction": 3,
+        "given": 3,
+        "max_abs_probability_difference": 7.631673071273326e-13,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.5980839962139726,
+          "decode_preprocess_forward_probability": 2.1459170093294233
+        }
+      }
+    },
+    {
+      "name": "val:5",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:5",
+        "prediction": 4,
+        "given": 4,
+        "max_abs_probability_difference": 5.739853037312059e-13,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.5055839903652668,
+          "decode_preprocess_forward_probability": 2.00470800336916
+        }
+      }
+    },
+    {
+      "name": "val:8",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:8",
+        "prediction": 6,
+        "given": 6,
+        "max_abs_probability_difference": 7.945599733716335e-11,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.5005409950390458,
+          "decode_preprocess_forward_probability": 1.9530000136001036
+        }
+      }
+    },
+    {
+      "name": "val:3",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:3",
+        "prediction": 7,
+        "given": 7,
+        "max_abs_probability_difference": 1.1376639630356067e-09,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.4977909886511043,
+          "decode_preprocess_forward_probability": 1.9452500127954409
+        }
+      }
+    },
+    {
+      "name": "val:7",
+      "kind": "real validation image and frozen FP32 model",
+      "status": "passed",
+      "detail": {
+        "sample_id": "val:7",
+        "prediction": 8,
+        "given": 8,
+        "max_abs_probability_difference": 2.4943336285332407e-10,
+        "timing_ms": {
+          "session_creation": 29.54962500371039,
+          "forward_cpu": 1.4955000078771263,
+          "decode_preprocess_forward_probability": 1.9344169995747507
+        }
+      }
+    },
+    {
+      "name": "corrupt PNG",
+      "kind": "synthetic damaged input with real application",
+      "status": "passed",
+      "detail": "图片损坏或无法解码"
+    },
+    {
+      "name": "L accepted",
+      "kind": "synthetic image with real model inference",
+      "status": "passed",
+      "detail": 1
+    },
+    {
+      "name": "RGBA accepted",
+      "kind": "synthetic image with real model inference",
+      "status": "passed",
+      "detail": 1
+    },
+    {
+      "name": "RGB accepted",
+      "kind": "synthetic image with real model inference",
+      "status": "passed",
+      "detail": 1
+    },
+    {
+      "name": "pixel limit",
+      "kind": "synthetic oversized image",
+      "status": "passed",
+      "detail": "图片超过1600万像素上限"
+    },
+    {
+      "name": "file limit",
+      "kind": "synthetic oversized bytes",
+      "status": "passed",
+      "detail": "图片文件超过20MB上限"
+    },
+    {
+      "name": "reject model_hash",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型SHA256校验失败"
+    },
+    {
+      "name": "reject label_order",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: labels"
+    },
+    {
+      "name": "reject labels_zh",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: labels_zh"
+    },
+    {
+      "name": "reject mean",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "预处理参数不匹配: mean"
+    },
+    {
+      "name": "reject std",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "预处理参数不匹配: std"
+    },
+    {
+      "name": "reject freeze",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: freeze_id"
+    },
+    {
+      "name": "reject checkpoint",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: checkpoint_sha256"
+    },
+    {
+      "name": "reject size",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: size"
+    },
+    {
+      "name": "reject dtype",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: dtype"
+    },
+    {
+      "name": "reject layout",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "模型元数据不匹配: layout"
+    },
+    {
+      "name": "reject absolute",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "拒绝模型路径越界"
+    },
+    {
+      "name": "reject parent",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "拒绝模型路径越界"
+    },
+    {
+      "name": "reject symlink",
+      "kind": "temporary-copy metadata negative test",
+      "status": "passed",
+      "detail": "拒绝软链接路径越界"
+    },
+    {
+      "name": "invalid output (1, 8)",
+      "kind": "synthetic model output validator test",
+      "status": "passed",
+      "detail": "rejected"
+    },
+    {
+      "name": "invalid output (1, 9)",
+      "kind": "synthetic model output validator test",
+      "status": "passed",
+      "detail": "rejected"
+    },
+    {
+      "name": "invalid output (2, 9)",
+      "kind": "synthetic model output validator test",
+      "status": "passed",
+      "detail": "rejected"
+    },
+    {
+      "name": "no overwrite",
+      "kind": "synthetic sentinel",
+      "status": "passed",
+      "detail": {
+        "before": "2b7847b7b705781d7cf21a05e9c1bb37cbf078aea103bc3edcc6aca52ab65453",
+        "after": "2b7847b7b705781d7cf21a05e9c1bb37cbf078aea103bc3edcc6aca52ab65453"
+      }
+    }
+  ]
+}

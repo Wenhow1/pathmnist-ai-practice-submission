@@ -1,0 +1,12 @@
+﻿标题,作者,年份,来源/期刊,DOI或官方文档地址,版本,在本项目中的作用,已有来源文件,核验状态
+PathMNIST官方数据定义与划分,MedMNIST团队,网页未登记年份,官方代码/Zenodo,https://github.com/MedMNIST/MedMNIST/blob/main/medmnist/info.py；https://zenodo.org/records/10519652,Zenodo10519652，128px,数量/标签/MD5及官方split,stage1/manifest.json；docs/数据来源与患者独立性.md,已有文件可核验；未重新浏览最新网页
+Predicting survival from colorectal cancer histology slides using deep learning: A retrospective multicenter study,Kather等（完整作者待核验）,2019,PLOS Medicine,https://doi.org/10.1371/journal.pmed.1002730,原报告引用,数据来源和患者独立的来源研究说明；不移植患者结论,stage5/最终报告初稿.md；阶段七报告参考资料2,元数据沿用原报告；无新PDF下载
+MedMNIST v2: A large-scale lightweight benchmark for 2D and 3D biomedical image classification,Yang等（完整作者待核验）,2023,Scientific Data,https://www.nature.com/articles/s41597-022-01721-8,v2；实际数据为MedMNIST+128发布,官方图像任务/固定split背景,阶段七原报告参考资料5；stage5/最终报告初稿.md,沿用已有引用
+MedMNIST+高分辨率说明,MedMNIST团队,网页未登记年份,官方文档,https://github.com/MedMNIST/MedMNIST/blob/main/on_medmnist_plus.md,正式128源与项目自生成64分开,官方64/128分别从224原图生成；本项目从128缩64，非严格官方64基准复现,stage5/最终报告初稿.md,仅已有官方说明记录，不虚构独立论文元数据
+Rethinking model prototyping through the MedMNIST+ dataset collection,Doerrich等（完整作者待核验）,2025,Scientific Reports 15:7669,https://doi.org/10.1038/s41598-025-92156-9,原报告引用,分辨率收益不应预设单调；不代替本项目实测,阶段七原报告参考资料6,沿用已有引用
+NCT-CRC-HE: Not All Histopathological Datasets Are Equally Useful,Ignatov与Malivenko,2024,预印本,https://arxiv.org/abs/2409.11546,原报告引用,补充数据质量/解释局限，不把候选相似性当患者泄漏证明,阶段七原报告参考资料7,沿用已有引用；未重新核验预印本版本
+ResNet-18模型与权重,torchvision团队,文档未登记年份,官方文档,https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.resnet18.html,实际运行torchvision0.29.0+cu130 / IMAGENET1K_V1,标准模型调用和权重政策，末层改9类,pathmnist_project/model.py；requirements-gpu.lock.txt,stable地址非冻结网页；未归档相应版库内部源码
+MobileNetV3-Small模型与权重,torchvision团队,文档未登记年份,官方文档,https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_small.html,实际运行torchvision0.29.0+cu130 / IMAGENET1K_V1,轻量模型调用与保留classifier上游、改最后层,pathmnist_project/model.py；requirements-gpu.lock.txt,不冒称项目自行实现或本轮逐层前向验证
+ONNX Runtime Quantize ONNX models,ONNX Runtime文档维护者,文档未登记年份,官方文档,https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html,历史服务器ORT1.30；独立MacORT1.31,QDQ静态PTQ、训练校准与匹配误差后有限浮点排除的方法背景,stage7/quantization_diagnosis.md；stage6/DeepSeek量化审查记录.md,官方方法不是唯一数值根因证据
+ResNet原始论文条目,待核验,待核验,待核验,待核验,未在本轮现有参考清单中取得完整条目,若ChatGPT需要原始论文引用应先补核验；当前直接使用官方模型文档,当前model.py只导入torchvision,未提供PDF/BibTeX，不列为已阅读
+MobileNetV3原始论文条目,待核验,待核验,待核验,待核验,未在本轮现有参考清单中取得完整条目,同上；不从记忆补作者/DOI充当已归档事实,当前model.py只导入torchvision,未提供PDF/BibTeX，不列为已阅读

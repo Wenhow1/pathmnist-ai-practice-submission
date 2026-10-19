@@ -1,0 +1,101 @@
+[
+  {
+    "destination": "demo/portable_demo/model/fp32.onnx",
+    "sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+    "bytes": 6128891,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/model/fp32.onnx",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.984652+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_0.png",
+    "sha256": "f78d72788b4defc6e6428bdb6112620de2a4bfccab9e189546803b31cb58128c",
+    "bytes": 34416,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_0.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.988425+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_9082.png",
+    "sha256": "7ecd3b36b57ec1e3fd22c3fd2c3bc525031ba76d76c5f303d742a2abc5c9246b",
+    "bytes": 38793,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_9082.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.991283+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_1.png",
+    "sha256": "ba6c30cc7c35453b7c7fff73eadabae899a9da0c30805da4649b515bfdcded2f",
+    "bytes": 24883,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_1.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.994143+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_2.png",
+    "sha256": "ed2288bc0fb66240b07a63e910117170335a445744af4b8971b6fb365f3e0045",
+    "bytes": 6175,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_2.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.996486+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_12.png",
+    "sha256": "029c891550edf821fce4f095d8f259f7f6c391b0337bb8bd27c28abc1df292b1",
+    "bytes": 38689,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_12.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:19.999036+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_6.png",
+    "sha256": "5dbdd6b203aaa7167e46a8d5582bc19a4669d395dbecae8bfe722da57a74a011",
+    "bytes": 38020,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_6.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:20.001634+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_5.png",
+    "sha256": "864c2325953a481817f354dbb93e4aa7bec4816e481c6242105fc856c58215f0",
+    "bytes": 35308,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_5.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:20.004167+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_8.png",
+    "sha256": "5931cc417dbd6f282f556f64a276fac84abd7b3e28b34c3ab126abafa5a74b88",
+    "bytes": 34150,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_8.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:20.006736+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_3.png",
+    "sha256": "9c8a34b1cc7adb89cbd60a76d9bad1f7e3569514525f5790e6ebebe26dc7f79f",
+    "bytes": 34511,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_3.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:20.010276+00:00"
+  },
+  {
+    "destination": "demo/portable_demo/samples/val_7.png",
+    "sha256": "2d813e0cc6dc718fc96524bf91b371e72da0093005db36edb77c496a0ffaf607",
+    "bytes": 37717,
+    "source_archive": "PathMNIST_独立FP32演示_20261009.zip",
+    "archive_member": "portable_demo/samples/val_7.png",
+    "source_archive_sha256": "6b5d40a4cd4624753e9238e3f5e31bb18e5e4d7d59e72b918e2dab6390cc97ac",
+    "copied_at_utc": "2026-10-19T09:43:20.013233+00:00"
+  }
+]

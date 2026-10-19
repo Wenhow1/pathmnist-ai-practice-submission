@@ -1,0 +1,209 @@
+{
+  "n": 10004,
+  "accuracy": 0.998500599760096,
+  "macro_f1": 0.9984843927168063,
+  "macro_auc_ovr": 0.999988012483165,
+  "auc_note": "null when any class has no positive or no negative samples",
+  "confusion_matrix": [
+    [
+      1041,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1057,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1148,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1156,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      888,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1354,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      877,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      3,
+      1,
+      0,
+      1040,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      1,
+      1428
+    ]
+  ],
+  "per_class": [
+    {
+      "label": 0,
+      "name": "adipose",
+      "precision": 0.9990403071017274,
+      "recall": 1.0,
+      "f1": 0.99951992318771,
+      "support": 1041,
+      "sensitivity": 1.0,
+      "specificity": 0.9998884302130983,
+      "auc_ovr": 0.9999998928244122
+    },
+    {
+      "label": 1,
+      "name": "background",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1057,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "auc_ovr": 1.0
+    },
+    {
+      "label": 2,
+      "name": "debris",
+      "precision": 0.999129677980853,
+      "recall": 0.9965277777777778,
+      "f1": 0.9978270317253368,
+      "support": 1152,
+      "sensitivity": 0.9965277777777778,
+      "specificity": 0.9998870311793945,
+      "auc_ovr": 0.9999914685005272
+    },
+    {
+      "label": 3,
+      "name": "lymphocytes",
+      "precision": 0.9991356957649092,
+      "recall": 1.0,
+      "f1": 0.9995676610462603,
+      "support": 1156,
+      "sensitivity": 1.0,
+      "specificity": 0.9998869801084991,
+      "auc_ovr": 1.0
+    },
+    {
+      "label": 4,
+      "name": "mucus",
+      "precision": 0.9944008958566629,
+      "recall": 0.9977528089887641,
+      "f1": 0.9960740325294447,
+      "support": 890,
+      "sensitivity": 0.9977528089887641,
+      "specificity": 0.9994513934606101,
+      "auc_ovr": 0.9999632618542161
+    },
+    {
+      "label": 5,
+      "name": "smooth muscle",
+      "precision": 0.9985250737463127,
+      "recall": 1.0,
+      "f1": 0.9992619926199262,
+      "support": 1354,
+      "sensitivity": 1.0,
+      "specificity": 0.9997687861271676,
+      "auc_ovr": 0.9999993169457229
+    },
+    {
+      "label": 6,
+      "name": "normal colon mucosa",
+      "precision": 0.9988610478359908,
+      "recall": 1.0,
+      "f1": 0.9994301994301994,
+      "support": 877,
+      "sensitivity": 1.0,
+      "specificity": 0.9998904349731565,
+      "auc_ovr": 0.9999998750683844
+    },
+    {
+      "label": 7,
+      "name": "cancer-associated stroma",
+      "precision": 0.9990393852065321,
+      "recall": 0.9952153110047847,
+      "f1": 0.99712368168744,
+      "support": 1045,
+      "sensitivity": 0.9952153110047847,
+      "specificity": 0.9998883803995982,
+      "auc_ovr": 0.9999682765346227
+    },
+    {
+      "label": 8,
+      "name": "colorectal adenocarcinoma epithelium",
+      "precision": 0.9979035639412998,
+      "recall": 0.9972067039106145,
+      "f1": 0.9975550122249389,
+      "support": 1432,
+      "sensitivity": 0.9972067039106145,
+      "specificity": 0.9996500233317779,
+      "auc_ovr": 0.9999700206205993
+    }
+  ]
+}

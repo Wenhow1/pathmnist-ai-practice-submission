@@ -1,0 +1,62 @@
+{
+  "material_version": "AI-practice-submission-v1",
+  "prepared_at_utc": "2026-10-19T05:11:50.667771+00:00",
+  "scientific_commit": "d5e4a71ff6a9e485fe857792461387f27dc84d1d",
+  "original_repo": "Wenhow1/pathmnist-tissue-classification",
+  "original_main_read": "e3337732d36a8485c5f22695c9e9ab6dadc61318",
+  "target_repo": "Wenhow1/pathmnist-ai-practice-submission",
+  "target_visibility": "private",
+  "cloud_repository_created": true,
+  "cloud_push_completed": false,
+  "release_created": false,
+  "github_actions": "not_run",
+  "teacher_access": "not_tested_no_username",
+  "codex_task_created": false,
+  "delegation_limitation": "historical preparation limitation only; publication executed in existing authorized Codex chat",
+  "local_documents": "generated_and_rendered",
+  "visual_review": "completed: rendered report pages and presentation pages inspected; targeted layout fixes rerendered",
+  "local_synthetic_checker_tests": {
+    "count": 21,
+    "status": "passed",
+    "log": "reproducibility/unit_tests.log",
+    "scope": "new standard-library submission checker tests; no ML training"
+  },
+  "input_archive_hash_checks": [
+    {
+      "package": "PathMNIST_报告写作补充资料_d5e4a71",
+      "verified_count": 148,
+      "failures": []
+    },
+    {
+      "package": "ppt_assets",
+      "verified_count": 78,
+      "failures": []
+    }
+  ],
+  "demo_runtime_assets": {
+    "present": 11,
+    "missing": 0,
+    "status": "all_expected_hashes_match",
+    "new_inference": true
+  },
+  "original_inputs_modified": false,
+  "new_formal_training": 0,
+  "official_test_inference": 0,
+  "status_scope": "intermediate publication: assets accepted; cloud push and CI pending",
+  "finalized_at_utc": "2026-10-19T05:28:13.148668+00:00",
+  "render_counts": {
+    "01_AI工程实践主报告": 18,
+    "02_数据集探索笔记": 6,
+    "03_AI使用日志与交互案例": 8,
+    "04_模型与工程评估报告": 24,
+    "presentation_total": 30,
+    "presentation_hidden": 4
+  },
+  "source_copy_records": 236,
+  "protected_uploaded_files_checked": 7,
+  "native_user_powerpoint_or_wps_acceptance": "not_executed",
+  "local_demo_asset_gate": "blocked_pending_11_archived_files",
+  "new_copy_runtime_acceptance": "passed_20_checks_on_macos_arm64",
+  "browser_acceptance": "passed_4_cases",
+  "updated_at_utc": "2026-10-19T09:49:18.414886+00:00"
+}

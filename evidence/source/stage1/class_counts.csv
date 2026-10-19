@@ -1,0 +1,10 @@
+class,name,train,val,test
+0,adipose,9366,1041,1338
+1,background,9509,1057,847
+2,debris,10360,1152,339
+3,lymphocytes,10401,1156,634
+4,mucus,8006,890,1035
+5,smooth muscle,12182,1354,592
+6,normal colon mucosa,7886,877,741
+7,cancer-associated stroma,9401,1045,421
+8,colorectal adenocarcinoma epithelium,12885,1432,1233

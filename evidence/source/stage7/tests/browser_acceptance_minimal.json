@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "platform": "macOS arm64 Chrome",
+  "app_OS_policy": "deny network except loopback",
+  "browser_policy": "all requests except loopback aborted",
+  "external_probe_blocked": true,
+  "real_model_inferences": 3,
+  "official_test_inferences": 0,
+  "records": [
+    {
+      "case": "fixed_correct",
+      "status": "passed",
+      "text": "预测：平滑肌平滑肌 100.000%癌相关间质 0.000%黏液 0.000%CPU前向 2.19ms；含解码处理 10.26ms"
+    },
+    {
+      "case": "fixed_disagreement",
+      "status": "passed",
+      "given": "数据集给定标签：癌相关间质。此样例与给定标签不一致，未做病理专家复核。",
+      "result": "预测：黏液黏液 100.000%癌相关间质 0.000%平滑肌 0.000%CPU前向 1.64ms；含解码处理 2.26ms"
+    },
+    {
+      "case": "upload_valid_png",
+      "status": "passed"
+    },
+    {
+      "case": "upload_corrupt_png",
+      "status": "passed",
+      "error": "图片损坏或无法解码"
+    }
+  ]
+}

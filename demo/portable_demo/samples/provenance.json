@@ -1,0 +1,227 @@
+{
+  "source_split": "val",
+  "source_csv_sha256": "6ac4def18cf6c999bf21f4e61c1588f0e5f6ed68079f910c3495acdf38961478",
+  "probability_abs_tolerance": 0.0001,
+  "samples": [
+    {
+      "sample_id": "val:0",
+      "file": "val_0.png",
+      "given_label": 5,
+      "reference_prediction": 5,
+      "reference_probabilities": [
+        3.5685371012881585e-15,
+        8.059423625434575e-14,
+        4.5993596809541706e-15,
+        4.1522914562286146e-15,
+        3.49361208365484e-12,
+        1.0,
+        6.325305354498581e-16,
+        2.6733615321461457e-09,
+        1.136681263402947e-15
+      ],
+      "sha256": "f78d72788b4defc6e6428bdb6112620de2a4bfccab9e189546803b31cb58128c",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:9082",
+      "file": "val_9082.png",
+      "given_label": 7,
+      "reference_prediction": 4,
+      "reference_probabilities": [
+        3.099021594898943e-10,
+        9.79993197702811e-10,
+        5.269720770861852e-11,
+        7.964287215833643e-12,
+        0.9999957084655762,
+        1.2786776437678782e-07,
+        2.6824098497968407e-10,
+        4.133139100304106e-06,
+        4.857359740123579e-12
+      ],
+      "sha256": "7ecd3b36b57ec1e3fd22c3fd2c3bc525031ba76d76c5f303d742a2abc5c9246b",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:1",
+      "file": "val_1.png",
+      "given_label": 0,
+      "reference_prediction": 0,
+      "reference_probabilities": [
+        1.0,
+        4.770736583559199e-10,
+        2.6280469770864623e-13,
+        2.054475166379799e-11,
+        2.6590637677847972e-11,
+        1.2430802047436185e-11,
+        9.587178056644219e-13,
+        3.505936166381396e-11,
+        9.783818042839384e-14
+      ],
+      "sha256": "ba6c30cc7c35453b7c7fff73eadabae899a9da0c30805da4649b515bfdcded2f",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:2",
+      "file": "val_2.png",
+      "given_label": 1,
+      "reference_prediction": 1,
+      "reference_probabilities": [
+        2.1947270667510566e-09,
+        1.0,
+        1.4112560946244468e-12,
+        5.455089369587815e-14,
+        7.849161858669573e-13,
+        1.3087850302215959e-13,
+        3.7351774505398755e-14,
+        2.5906311601139875e-13,
+        1.1742527762807835e-17
+      ],
+      "sha256": "ed2288bc0fb66240b07a63e910117170335a445744af4b8971b6fb365f3e0045",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:12",
+      "file": "val_12.png",
+      "given_label": 2,
+      "reference_prediction": 2,
+      "reference_probabilities": [
+        2.883142672088085e-13,
+        2.4409878632281057e-11,
+        1.0,
+        2.578653002932585e-12,
+        1.1944307522215869e-11,
+        6.172309842053525e-13,
+        1.551408499652913e-15,
+        6.726282725244559e-12,
+        1.301605073722456e-10
+      ],
+      "sha256": "029c891550edf821fce4f095d8f259f7f6c391b0337bb8bd27c28abc1df292b1",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:6",
+      "file": "val_6.png",
+      "given_label": 3,
+      "reference_prediction": 3,
+      "reference_probabilities": [
+        2.2399930285741006e-15,
+        2.7140040160991002e-14,
+        7.332806237214662e-13,
+        1.0,
+        1.3752066942618237e-14,
+        2.849621907403848e-18,
+        2.0932771547609827e-16,
+        1.3017208686151192e-15,
+        6.131119663208744e-15
+      ],
+      "sha256": "5dbdd6b203aaa7167e46a8d5582bc19a4669d395dbecae8bfe722da57a74a011",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:5",
+      "file": "val_5.png",
+      "given_label": 4,
+      "reference_prediction": 4,
+      "reference_probabilities": [
+        5.727312269835662e-16,
+        1.6688479700459415e-17,
+        3.7347446193508065e-17,
+        2.922621682136207e-19,
+        1.0,
+        2.367417382906367e-18,
+        5.660282897772262e-13,
+        9.146634458948727e-16,
+        1.4077750052046332e-15
+      ],
+      "sha256": "864c2325953a481817f354dbb93e4aa7bec4816e481c6242105fc856c58215f0",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:8",
+      "file": "val_8.png",
+      "given_label": 6,
+      "reference_prediction": 6,
+      "reference_probabilities": [
+        1.0815088724110318e-16,
+        5.705764148704207e-17,
+        7.639410003621236e-17,
+        2.5286926889976462e-14,
+        1.4801094748480027e-16,
+        1.1599388293708596e-18,
+        1.0,
+        1.4745064139404614e-18,
+        8.140902535425099e-11
+      ],
+      "sha256": "5931cc417dbd6f282f556f64a276fac84abd7b3e28b34c3ab126abafa5a74b88",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:3",
+      "file": "val_3.png",
+      "given_label": 7,
+      "reference_prediction": 7,
+      "reference_probabilities": [
+        3.096951731521025e-12,
+        1.2087384045067484e-11,
+        1.0484501045127104e-09,
+        2.6938520858443837e-12,
+        5.800110825654459e-12,
+        5.962956517446827e-11,
+        3.1971574693256954e-11,
+        1.0,
+        6.010191910127416e-12
+      ],
+      "sha256": "9c8a34b1cc7adb89cbd60a76d9bad1f7e3569514525f5790e6ebebe26dc7f79f",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    },
+    {
+      "sample_id": "val:7",
+      "file": "val_7.png",
+      "given_label": 8,
+      "reference_prediction": 8,
+      "reference_probabilities": [
+        7.256557008929188e-14,
+        1.461645474792883e-14,
+        1.2689420911607407e-12,
+        2.235438180051008e-12,
+        6.954078155332888e-13,
+        2.6935013464415847e-13,
+        2.335689974763966e-10,
+        6.066417767430776e-12,
+        1.0
+      ],
+      "sha256": "2d813e0cc6dc718fc96524bf91b371e72da0093005db36edb77c496a0ffaf607",
+      "pixel_equal_to_array": true,
+      "source_array_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "purpose": "fixed validation demonstration; disagreement not reviewed by pathologist",
+      "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33"
+    }
+  ]
+}

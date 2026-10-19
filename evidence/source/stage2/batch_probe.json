@@ -1,0 +1,33 @@
+{
+  "batch_size": 128,
+  "device": "cuda",
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.14",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "torchvision": "0.29.0+cu130",
+      "medmnist": "3.0.2",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.1",
+      "pillow": "12.3.0",
+      "streamlit": "1.64.0"
+    },
+    "cuda": true,
+    "mps": false,
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "measurements": [
+    {
+      "model": "resnet18",
+      "batch_size": 128,
+      "step_seconds": 0.1838345005235169
+    },
+    {
+      "model": "mobilenet_v3_small",
+      "batch_size": 128,
+      "step_seconds": 0.0468250080011785
+    }
+  ],
+  "manifest_id": "ce844e66f5f346beccf155173d3de7ed7b161412f65dc6f5d67a347f2b40590b"
+}

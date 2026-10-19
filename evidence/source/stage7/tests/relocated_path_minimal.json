@@ -1,0 +1,13 @@
+{
+  "path": "/var/folders/rn/shlbxf_91wq849j9v0sgbzdw0000gn/T/pathmnist_offline_ksascxs9",
+  "argv": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)",
+    "/private/tmp/pathmnist_stage7_inference/bin/python",
+    "/Users/wenhowl/Documents/ChatGPT/\u738b\u5f20\u6587\u7693\u9879\u76eecodex/pathmnist-tissue-classification/stage7/tests/real_acceptance.py",
+    "/var/folders/rn/shlbxf_91wq849j9v0sgbzdw0000gn/T/pathmnist_offline_ksascxs9/demo",
+    "/Users/wenhowl/Documents/ChatGPT/\u738b\u5f20\u6587\u7693\u9879\u76eecodex/pathmnist-tissue-classification/stage7/tests/real_model_acceptance_minimal.json"
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "the seven uploaded files enumerated before this material build; no claim of remote full-repository audit",
+  "files": [
+    {
+      "file": "实践汇报 PPT.pptx",
+      "before_sha256": "10aa1d2eccb1979f6a46a1fb2a61a6f9646d48d4576431cc1ccf18c29566731a",
+      "after_sha256": "10aa1d2eccb1979f6a46a1fb2a61a6f9646d48d4576431cc1ccf18c29566731a",
+      "unchanged": true
+    },
+    {
+      "file": "实践汇报_PPT_AI协作强化版.pptx",
+      "before_sha256": "b39adf2352da80ef93a30de568f15297d41f1ebb45d43edd49fac9d4a3377511",
+      "after_sha256": "b39adf2352da80ef93a30de568f15297d41f1ebb45d43edd49fac9d4a3377511",
+      "unchanged": true
+    },
+    {
+      "file": "PathMNIST_报告写作补充资料_d5e4a71.zip",
+      "before_sha256": "83777ceed578194b9b003910ae171f5a6835a051829d44e3e749ff7341a7b90e",
+      "after_sha256": "83777ceed578194b9b003910ae171f5a6835a051829d44e3e749ff7341a7b90e",
+      "unchanged": true
+    },
+    {
+      "file": "PathMNIST_PPT素材包_d5e4a71_20261015.zip",
+      "before_sha256": "ec7f924005a6725597734dbf5fb815965d60eab3e533f4d679022af049b9b137",
+      "after_sha256": "ec7f924005a6725597734dbf5fb815965d60eab3e533f4d679022af049b9b137",
+      "unchanged": true
+    },
+    {
+      "file": "PathMNIST_课程报告与PPT图解_完整交付.zip",
+      "before_sha256": "cfceef355c5b025e3212b85736fd273d293c79f2f7f4fddbfe7400cab3b64398",
+      "after_sha256": "cfceef355c5b025e3212b85736fd273d293c79f2f7f4fddbfe7400cab3b64398",
+      "unchanged": true
+    },
+    {
+      "file": "pathmnist-course-submission-v2.zip",
+      "before_sha256": "a5271d464c29d0c33e7b5d7bf001922634b74e3cbd5495b3992656197ed4475d",
+      "after_sha256": "a5271d464c29d0c33e7b5d7bf001922634b74e3cbd5495b3992656197ed4475d",
+      "unchanged": true
+    },
+    {
+      "file": "研究生工程实践秋学期课程资料(1).docx",
+      "before_sha256": "f34d0bf549261c876325d5ff27b63f4e469c7c52f41672a7538e56244ce80a49",
+      "after_sha256": "f34d0bf549261c876325d5ff27b63f4e469c7c52f41672a7538e56244ce80a49",
+      "unchanged": true
+    }
+  ],
+  "status": "passed",
+  "original_files_written": false
+}

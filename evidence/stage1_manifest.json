@@ -1,0 +1,126 @@
+{
+  "dataset": "PathMNIST",
+  "data_mode": "full",
+  "full_archive_checksum_verified": true,
+  "release": "Zenodo 10519652 / 128px",
+  "source": "https://zenodo.org/records/10519652/files/pathmnist_128.npz?download=1",
+  "md5": "ac42d08fb904d92c244187169d1fd1d9",
+  "labels": [
+    "adipose",
+    "background",
+    "debris",
+    "lymphocytes",
+    "mucus",
+    "smooth muscle",
+    "normal colon mucosa",
+    "cancer-associated stroma",
+    "colorectal adenocarcinoma epithelium"
+  ],
+  "original_counts": {
+    "train": 89996,
+    "val": 10004,
+    "test": 7180
+  },
+  "original_class_counts": {
+    "train": [
+      9366,
+      9509,
+      10360,
+      10401,
+      8006,
+      12182,
+      7886,
+      9401,
+      12885
+    ],
+    "val": [
+      1041,
+      1057,
+      1152,
+      1156,
+      890,
+      1354,
+      877,
+      1045,
+      1432
+    ],
+    "test": [
+      1338,
+      847,
+      339,
+      634,
+      1035,
+      592,
+      741,
+      421,
+      1233
+    ]
+  },
+  "files": {
+    "train": {
+      "images_sha256": "a23a2b6effd8ef06221d4f882c8af6e5e159e30d60bd8d932561d2d0de8d3c56",
+      "labels_sha256": "db964869cdd9e8c39a42a138ed44cbab7f351f40e0941f52345f4d81e49b238c"
+    },
+    "val": {
+      "images_sha256": "b051b6c3df8463e61ce39810e2baafe8f2923a28019f6eacd5e4ab387055dd4b",
+      "labels_sha256": "87752402112a22b04f5da2a2350a4c4fa5787ac977cacfa646132aa67b10b6fd"
+    },
+    "test": {
+      "images_sha256": "957eb69d480cce1f463970588ccceeda906a049765cc356de696725b7dcca575",
+      "labels_sha256": "4e15dabc7cd3f6e5079165b81b75741c13686715f3cc7c3f6bd3acafbb92e2c5"
+    }
+  },
+  "effective": {
+    "test": {
+      "n": 7180,
+      "class_counts": [
+        1338,
+        847,
+        339,
+        634,
+        1035,
+        592,
+        741,
+        421,
+        1233
+      ],
+      "indices_sha256": "987c355d21c56efd784d25c1043b8559a72a9e40c6e1f3dc85015255384f4c06"
+    },
+    "val": {
+      "n": 10004,
+      "class_counts": [
+        1041,
+        1057,
+        1152,
+        1156,
+        890,
+        1354,
+        877,
+        1045,
+        1432
+      ],
+      "indices_sha256": "290e675f5fddc4efa125fffd6933b24eaa4eb839ed5d34afd02671f84e880260"
+    },
+    "train": {
+      "n": 89996,
+      "class_counts": [
+        9366,
+        9509,
+        10360,
+        10401,
+        8006,
+        12182,
+        7886,
+        9401,
+        12885
+      ],
+      "indices_sha256": "0d201002577b05f99ec56993d287fb92519e9ac98bb28560097dd07450515742"
+    }
+  },
+  "duplicate_count": 0,
+  "duplicate_policy": "test > val > train; exact pixels only",
+  "protocol": "official",
+  "patient_audit": "NPZ has no patient identifiers; patient disjointness cannot be independently verified.",
+  "source_evidence": "https://doi.org/10.1371/journal.pmed.1002730",
+  "manifest_id": "ce844e66f5f346beccf155173d3de7ed7b161412f65dc6f5d67a347f2b40590b"
+}

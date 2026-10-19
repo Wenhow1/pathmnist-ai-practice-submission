@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "results": {
+    "workspace": {
+      "protected_files": 396,
+      "changed_or_missing": [],
+      "added_outside_stage7": [],
+      "status": "passed"
+    },
+    "original_workspace": {
+      "protected_files": 636,
+      "changed_or_missing": [],
+      "added_outside_stage7": [],
+      "status": "passed"
+    },
+    "server": {
+      "protected_files": 267,
+      "changed_or_missing": [],
+      "added_outside_stage7": [],
+      "status": "passed"
+    }
+  },
+  "freeze_selected_model": "D_seed2026",
+  "old_locks_not_refreshed": true
+}

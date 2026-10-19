@@ -1,0 +1,372 @@
+{
+  "scope": "post-hoc descriptive validation analysis only; no data or weights modified, no test access",
+  "candidate_method": "64-bit grayscale average hash on 8x8 RGB block means; all 8 dihedral orientations; Hamming <=3 candidates; select the orientation with smallest 8x8 RGB block MAE per pair; block RGB MAE <=20; then full aligned pixel MAE <=10",
+  "candidate_unique_val_n": 91,
+  "candidate_val_class_counts": [
+    0,
+    80,
+    2,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0
+  ],
+  "runs": [
+    {
+      "run_id": "B_seed42",
+      "group": "B",
+      "seed": 42,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.9986005597760895,
+        "macro_f1": 0.9986152858506127,
+        "errors": 14,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9985877131040048,
+        "macro_f1": 0.9986140228473244,
+        "errors": 14,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -1.2630032882876563e-06,
+      "delta_accuracy_excluding_minus_all": -1.2846672084676491e-05
+    },
+    {
+      "run_id": "B_seed2026",
+      "group": "B",
+      "seed": 2026,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.998500599760096,
+        "macro_f1": 0.9984843927168063,
+        "errors": 15,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9984868354685766,
+        "macro_f1": 0.9984834239744315,
+        "errors": 15,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -9.687423748738766e-07,
+      "delta_accuracy_excluding_minus_all": -1.3764291519335892e-05
+    },
+    {
+      "run_id": "B_seed3407",
+      "group": "B",
+      "seed": 3407,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.9987005197920832,
+        "macro_f1": 0.9986966355582025,
+        "errors": 13,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9986885907394331,
+        "macro_f1": 0.9986957497992547,
+        "errors": 13,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -8.85758947855031e-07,
+      "delta_accuracy_excluding_minus_all": -1.1929052650128114e-05
+    },
+    {
+      "run_id": "D_seed42",
+      "group": "D",
+      "seed": 42,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.9978008796481408,
+        "macro_f1": 0.9977525895076698,
+        "errors": 22,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9977806920205791,
+        "macro_f1": 0.9977502535469268,
+        "errors": 22,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -2.3359607429496165e-06,
+      "delta_accuracy_excluding_minus_all": -2.018762756172965e-05
+    },
+    {
+      "run_id": "D_seed2026",
+      "group": "D",
+      "seed": 2026,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.9981007596961216,
+        "macro_f1": 0.9980726514172689,
+        "errors": 19,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9980833249268637,
+        "macro_f1": 0.9980705885147576,
+        "errors": 19,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -2.062902511257292e-06,
+      "delta_accuracy_excluding_minus_all": -1.743476925786247e-05
+    },
+    {
+      "run_id": "D_seed3407",
+      "group": "D",
+      "seed": 3407,
+      "all": {
+        "n": 10004,
+        "accuracy": 0.9976009596161536,
+        "macro_f1": 0.9976363352164679,
+        "errors": 24,
+        "class_counts": [
+          1041,
+          1057,
+          1152,
+          1156,
+          890,
+          1354,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "candidate_subset": {
+        "n": 91,
+        "errors": 0,
+        "class_counts": [
+          0,
+          80,
+          2,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0
+        ]
+      },
+      "excluding_candidates": {
+        "n": 9913,
+        "accuracy": 0.9975789367497225,
+        "macro_f1": 0.9976334521749819,
+        "errors": 24,
+        "class_counts": [
+          1041,
+          977,
+          1150,
+          1156,
+          890,
+          1345,
+          877,
+          1045,
+          1432
+        ]
+      },
+      "delta_macro_f1_excluding_minus_all": -2.8830414859903897e-06,
+      "delta_accuracy_excluding_minus_all": -2.202286643104845e-05
+    }
+  ],
+  "group_means": {
+    "B": {
+      "mean_all_macro_f1": 0.9985987713752071,
+      "mean_excluding_macro_f1": 0.9985977322070035,
+      "mean_delta_macro_f1": -1.0391682036721879e-06,
+      "mean_all_accuracy": 0.9986005597760895,
+      "mean_excluding_accuracy": 0.9985877131040048,
+      "mean_delta_accuracy": -1.2846672084713498e-05
+    },
+    "D": {
+      "mean_all_macro_f1": 0.9978205253804688,
+      "mean_excluding_macro_f1": 0.9978180980788888,
+      "mean_delta_macro_f1": -2.427301580065766e-06,
+      "mean_all_accuracy": 0.997834199653472,
+      "mean_excluding_accuracy": 0.9978143178990551,
+      "mean_delta_accuracy": -1.9881754416880188e-05
+    }
+  }
+}

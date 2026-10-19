@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "task": "PathMNIST 9-class tissue-patch classification, not patient diagnosis",
+  "labels": [
+    "adipose",
+    "background",
+    "debris",
+    "lymphocytes",
+    "mucus",
+    "smooth muscle",
+    "normal colon mucosa",
+    "cancer-associated stroma",
+    "colorectal adenocarcinoma epithelium"
+  ],
+  "labels_zh": [
+    "脂肪",
+    "背景",
+    "碎屑",
+    "淋巴细胞",
+    "黏液",
+    "平滑肌",
+    "正常结肠黏膜",
+    "癌相关间质",
+    "结直肠腺癌上皮"
+  ],
+  "size": 128,
+  "mean": [
+    0.48500001430511475,
+    0.4560000002384186,
+    0.4059999883174896
+  ],
+  "std": [
+    0.2290000021457672,
+    0.2240000069141388,
+    0.22499999403953552
+  ],
+  "freeze_id": "c4f809a629d97e68936d190a6c824b18f6713fa206b3a658d21f52bd64de6f55",
+  "checkpoint_sha256": "a6bce45c31d039f1fd7375b9ee82f9b91f02ca962544fd8bfebdd208c781b0cc",
+  "variant": "fp32",
+  "selected_run": "D_seed2026",
+  "dtype": "float32",
+  "layout": "NCHW",
+  "channels": "RGB",
+  "resize": "PIL.BILINEAR",
+  "scale_divisor": 255,
+  "exif_transpose": false,
+  "model": {
+    "path": "fp32.onnx",
+    "sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+    "bytes": 6128891
+  }
+}

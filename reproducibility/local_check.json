@@ -1,0 +1,223 @@
+{
+  "status": "passed",
+  "scope": "local submission file/arithmetic checks only",
+  "checks": [
+    {
+      "name": "file_manifest",
+      "status": "passed",
+      "detail": {
+        "files_verified": 289,
+        "coverage": "enumerated immutable files; dynamic logs excluded"
+      }
+    },
+    {
+      "name": "historical_source_identity",
+      "status": "passed",
+      "detail": {
+        "source_copies": 236,
+        "remote_redownload": false
+      }
+    },
+    {
+      "name": "formal_saved_confusion_arithmetic",
+      "status": "passed",
+      "detail": {
+        "count": 15,
+        "saved_confusion_matrices": [
+          {
+            "run": "A_seed42",
+            "n": 7180,
+            "accuracy": 0.9257660167130919,
+            "macro_f1": 0.9061123426439318
+          },
+          {
+            "run": "A_seed2026",
+            "n": 7180,
+            "accuracy": 0.9257660167130919,
+            "macro_f1": 0.9055462939659916
+          },
+          {
+            "run": "A_seed3407",
+            "n": 7180,
+            "accuracy": 0.9293871866295265,
+            "macro_f1": 0.9058958792324765
+          },
+          {
+            "run": "B_seed42",
+            "n": 7180,
+            "accuracy": 0.9314763231197771,
+            "macro_f1": 0.9103959847320433
+          },
+          {
+            "run": "B_seed2026",
+            "n": 7180,
+            "accuracy": 0.9284122562674094,
+            "macro_f1": 0.9046917015723509
+          },
+          {
+            "run": "B_seed3407",
+            "n": 7180,
+            "accuracy": 0.935933147632312,
+            "macro_f1": 0.9131063369096475
+          },
+          {
+            "run": "C_seed42",
+            "n": 7180,
+            "accuracy": 0.8779944289693593,
+            "macro_f1": 0.857258967383408
+          },
+          {
+            "run": "C_seed2026",
+            "n": 7180,
+            "accuracy": 0.9020891364902507,
+            "macro_f1": 0.8750455963823774
+          },
+          {
+            "run": "C_seed3407",
+            "n": 7180,
+            "accuracy": 0.8955431754874652,
+            "macro_f1": 0.8691832627282478
+          },
+          {
+            "run": "D_seed42",
+            "n": 7180,
+            "accuracy": 0.9399721448467967,
+            "macro_f1": 0.92263961682919
+          },
+          {
+            "run": "D_seed2026",
+            "n": 7180,
+            "accuracy": 0.9487465181058495,
+            "macro_f1": 0.929008244957132
+          },
+          {
+            "run": "D_seed3407",
+            "n": 7180,
+            "accuracy": 0.9410863509749303,
+            "macro_f1": 0.9212985913798762
+          },
+          {
+            "run": "E_seed42",
+            "n": 7180,
+            "accuracy": 0.9459610027855153,
+            "macro_f1": 0.9260904805088293
+          },
+          {
+            "run": "E_seed2026",
+            "n": 7180,
+            "accuracy": 0.9540389972144847,
+            "macro_f1": 0.9391817460583248
+          },
+          {
+            "run": "E_seed3407",
+            "n": 7180,
+            "accuracy": 0.954874651810585,
+            "macro_f1": 0.939169664031355
+          }
+        ],
+        "model_inference": false,
+        "auc_recomputed": false
+      }
+    },
+    {
+      "name": "pretest_selection_replay",
+      "status": "passed",
+      "detail": {
+        "admissible": [
+          "A",
+          "B",
+          "D"
+        ],
+        "group": "D",
+        "run_id": "D_seed2026",
+        "cpu_statistic": "median of three run medians"
+      }
+    },
+    {
+      "name": "quant_saved_confusion_arithmetic",
+      "status": "passed",
+      "detail": {
+        "val_samples": 10004,
+        "accuracy": 0.9958016793282687,
+        "macro_f1": 0.9956677882029599,
+        "new_test_inference": false
+      }
+    },
+    {
+      "name": "demo_metadata_only",
+      "status": "passed",
+      "detail": {
+        "model_sha": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+        "samples_in_provenance": 10,
+        "weights_loaded": false
+      }
+    },
+    {
+      "name": "demo_asset_presence",
+      "status": "passed",
+      "detail": {
+        "verified": 0,
+        "missing": [
+          "demo/portable_demo/model/fp32.onnx",
+          "demo/portable_demo/samples/val_0.png",
+          "demo/portable_demo/samples/val_9082.png",
+          "demo/portable_demo/samples/val_1.png",
+          "demo/portable_demo/samples/val_2.png",
+          "demo/portable_demo/samples/val_12.png",
+          "demo/portable_demo/samples/val_6.png",
+          "demo/portable_demo/samples/val_5.png",
+          "demo/portable_demo/samples/val_8.png",
+          "demo/portable_demo/samples/val_3.png",
+          "demo/portable_demo/samples/val_7.png"
+        ],
+        "inference_executed": false
+      }
+    },
+    {
+      "name": "docx_pptx_package_structure",
+      "status": "passed",
+      "detail": {
+        "02_数据集探索笔记.docx": {
+          "zip_and_xml": "passed"
+        },
+        "01_AI工程实践主报告.docx": {
+          "zip_and_xml": "passed"
+        },
+        "04_模型与工程评估报告.docx": {
+          "zip_and_xml": "passed"
+        },
+        "03_AI使用日志与交互案例.docx": {
+          "zip_and_xml": "passed"
+        },
+        "PathMNIST_AI工程实践汇报_教师提交版.pptx": {
+          "slides": 30,
+          "hidden": 4,
+          "notes": 30
+        }
+      }
+    },
+    {
+      "name": "authored_relative_links",
+      "status": "passed",
+      "detail": {
+        "links_checked": 51,
+        "files": 18,
+        "historical_embedded_source_links_excluded": true,
+        "online_access_tested": false
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "name": "demo_not_self_contained",
+      "missing_count": 11,
+      "message": "copy archived FP32 and fixed PNGs; basic check does not establish runnable demo"
+    }
+  ],
+  "new_training_runs": 0,
+  "new_model_inference": 0,
+  "official_test_predictions_generated": 0,
+  "cloud_ci_executed": false,
+  "source_repository_written": false
+}

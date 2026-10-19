@@ -1,0 +1,337 @@
+{
+  "status": "complete",
+  "scope": "post-freeze deployment extension; validation only",
+  "formal_selection_unchanged": true,
+  "test_set_used": false,
+  "freeze_id": "c4f809a629d97e68936d190a6c824b18f6713fa206b3a658d21f52bd64de6f55",
+  "selected_run": "D_seed2026",
+  "checkpoint_sha256": "a6bce45c31d039f1fd7375b9ee82f9b91f02ca962544fd8bfebdd208c781b0cc",
+  "manifest_id": "ce844e66f5f346beccf155173d3de7ed7b161412f65dc6f5d67a347f2b40590b",
+  "formal_source_id": "06df19a4b4b0a2786248635b6bda177523716fec9f9a4fb5a6ff0a8048a5a9d5",
+  "extension_script_sha256": "21cbca1684859b72bce27b8929969c228acccf689c51700dcdd25db1a5e82ea2",
+  "dependency_provenance": {
+    "mode": "separate ONNX venv with read-only formal PyTorch packages",
+    "active_onnx_freeze_sha256": "9200540ff0983a62e0d17b5c5345708a9fbf5cd81192ef332515abe33f57689d",
+    "formal_base_freeze_sha256": "9417062ce1757940a6d7286948aea6a4409321c1167543b07c103dc334c1b28a",
+    "full_isolation_uv_lock_sha256": "90158f99d92b9ce7acd9f8a8bef2f185b6dae9f15437f4c9efe8ed18063f3e05",
+    "full_isolation_lock_used": false
+  },
+  "preprocessing": {
+    "size": 128,
+    "resample": "PIL bilinear",
+    "mode": "RGB",
+    "scale": "uint8/255",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ],
+    "max_abs_difference_to_formal": 0.0
+  },
+  "export": {
+    "opset": 17,
+    "max_abs_logit_difference_pytorch_vs_fp32_onnx": 8.58306884765625e-05,
+    "quantization": "ONNX Runtime static INT8 PTQ; QDQ; U8U8; MinMax; per-channel weights",
+    "op_types": [
+      "Conv",
+      "Gemm",
+      "MatMul"
+    ],
+    "qdq_node_counts": {
+      "Conv": 52,
+      "Gemm": 2,
+      "MatMul": 0,
+      "QuantizeLinear": 103,
+      "DequantizeLinear": 211
+    }
+  },
+  "calibration": {
+    "split": "train",
+    "n": 576,
+    "seed": 20260928,
+    "per_class": 64,
+    "manifest_file_sha256": "30937de715d2645de1d06d671b69288b5818dfc8d7e3d2d3aabec81dc5f4c4ee"
+  },
+  "validation": {
+    "n": 10004,
+    "fp32": {
+      "macro_f1": 0.9980726514172686,
+      "accuracy": 0.9981007596961216,
+      "macro_auc_ovr": 0.9999803412777271
+    },
+    "int8": {
+      "macro_f1": 0.3934715488601084,
+      "accuracy": 0.4750099960015994,
+      "macro_auc_ovr": 0.8555778308064984
+    },
+    "int8_minus_fp32_macro_f1": -0.6046011025571603,
+    "changed_top1_predictions": 5247,
+    "mean_abs_probability_change": 0.11930197477340698,
+    "per_class_changes": [
+      {
+        "label": 0,
+        "name": "adipose",
+        "support": 1041,
+        "fp32_f1": 1.0,
+        "int8_f1": 0.5242184816214359,
+        "int8_minus_fp32_f1": -0.4757815183785641,
+        "fp32_recall": 1.0,
+        "int8_recall": 0.7329490874159462,
+        "int8_minus_fp32_recall": -0.2670509125840538
+      },
+      {
+        "label": 1,
+        "name": "background",
+        "support": 1057,
+        "fp32_f1": 1.0,
+        "int8_f1": 0.6987951807228916,
+        "int8_minus_fp32_f1": -0.3012048192771084,
+        "fp32_recall": 1.0,
+        "int8_recall": 0.8230842005676443,
+        "int8_minus_fp32_recall": -0.1769157994323557
+      },
+      {
+        "label": 2,
+        "name": "debris",
+        "support": 1152,
+        "fp32_f1": 0.9978270317253368,
+        "int8_f1": 0.35526315789473684,
+        "int8_minus_fp32_f1": -0.6425638738306,
+        "fp32_recall": 0.9965277777777778,
+        "int8_recall": 0.234375,
+        "int8_minus_fp32_recall": -0.7621527777777778
+      },
+      {
+        "label": 3,
+        "name": "lymphocytes",
+        "support": 1156,
+        "fp32_f1": 0.9995676610462603,
+        "int8_f1": 0.6395821242019734,
+        "int8_minus_fp32_f1": -0.3599855368442869,
+        "fp32_recall": 1.0,
+        "int8_recall": 0.9532871972318339,
+        "int8_minus_fp32_recall": -0.04671280276816614
+      },
+      {
+        "label": 4,
+        "name": "mucus",
+        "support": 890,
+        "fp32_f1": 0.9960652051714446,
+        "int8_f1": 0.5070679434564523,
+        "int8_minus_fp32_f1": -0.48899726171499225,
+        "fp32_recall": 0.9955056179775281,
+        "int8_recall": 0.6247191011235955,
+        "int8_minus_fp32_recall": -0.3707865168539326
+      },
+      {
+        "label": 5,
+        "name": "smooth muscle",
+        "support": 1354,
+        "fp32_f1": 0.9977876106194691,
+        "int8_f1": 0.5715859030837004,
+        "int8_minus_fp32_f1": -0.4262017075357687,
+        "fp32_recall": 0.9992614475627769,
+        "int8_recall": 0.7666174298375185,
+        "int8_minus_fp32_recall": -0.23264401772525845
+      },
+      {
+        "label": 6,
+        "name": "normal colon mucosa",
+        "support": 877,
+        "fp32_f1": 0.9982905982905983,
+        "int8_f1": 0.18238021638330756,
+        "int8_minus_fp32_f1": -0.8159103819072907,
+        "fp32_recall": 0.9988597491448119,
+        "int8_recall": 0.1345496009122007,
+        "int8_minus_fp32_recall": -0.8643101482326112
+      },
+      {
+        "label": 7,
+        "name": "cancer-associated stroma",
+        "support": 1045,
+        "fp32_f1": 0.9952107279693486,
+        "int8_f1": 0.055401662049861494,
+        "int8_minus_fp32_f1": -0.9398090659194871,
+        "fp32_recall": 0.9942583732057416,
+        "int8_recall": 0.028708133971291867,
+        "int8_minus_fp32_recall": -0.9655502392344497
+      },
+      {
+        "label": 8,
+        "name": "colorectal adenocarcinoma epithelium",
+        "support": 1432,
+        "fp32_f1": 0.9979050279329609,
+        "int8_f1": 0.006949270326615705,
+        "int8_minus_fp32_f1": -0.9909557576063451,
+        "fp32_recall": 0.9979050279329609,
+        "int8_recall": 0.0034916201117318434,
+        "int8_minus_fp32_recall": -0.994413407821229
+      }
+    ],
+    "confusion_matrix_int8_minus_fp32": [
+      [
+        -278,
+        18,
+        2,
+        0,
+        3,
+        255,
+        0,
+        0,
+        0
+      ],
+      [
+        19,
+        -187,
+        18,
+        20,
+        4,
+        126,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        132,
+        -878,
+        420,
+        14,
+        260,
+        23,
+        -2,
+        1
+      ],
+      [
+        6,
+        3,
+        0,
+        -54,
+        36,
+        6,
+        3,
+        0,
+        0
+      ],
+      [
+        130,
+        153,
+        0,
+        11,
+        -330,
+        39,
+        0,
+        -1,
+        -2
+      ],
+      [
+        112,
+        40,
+        56,
+        23,
+        36,
+        -315,
+        40,
+        7,
+        1
+      ],
+      [
+        380,
+        42,
+        0,
+        91,
+        219,
+        26,
+        -758,
+        0,
+        0
+      ],
+      [
+        83,
+        109,
+        21,
+        166,
+        91,
+        419,
+        121,
+        -1009,
+        -1
+      ],
+      [
+        347,
+        66,
+        0,
+        456,
+        341,
+        104,
+        110,
+        0,
+        -1424
+      ]
+    ]
+  },
+  "files": {
+    "fp32": {
+      "path": "fp32.onnx",
+      "sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+      "bytes": 6128891
+    },
+    "int8": {
+      "path": "int8.onnx",
+      "sha256": "0f6566f037c28bc8c1b5ccde1c32487d18a477bf7b98dfb90a927b5d9c05318c",
+      "bytes": 1862963
+    }
+  },
+  "cpu_latency": {
+    "fp32": {
+      "median_ms": 0.407741,
+      "p95_ms": 0.4381645,
+      "threads": 1,
+      "batch_size": 1,
+      "warmup": 50,
+      "repeats": 500,
+      "preprocessing_included": false,
+      "session_creation_included": false,
+      "input": "zero tensor",
+      "provider": "CPUExecutionProvider",
+      "runtime": "ONNX Runtime"
+    },
+    "int8": {
+      "median_ms": 0.6731739999999999,
+      "p95_ms": 0.7023915,
+      "threads": 1,
+      "batch_size": 1,
+      "warmup": 50,
+      "repeats": 500,
+      "preprocessing_included": false,
+      "session_creation_included": false,
+      "input": "zero tensor",
+      "provider": "CPUExecutionProvider",
+      "runtime": "ONNX Runtime"
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "torchvision": "0.29.0+cu130",
+      "onnx": "1.23.0",
+      "onnxruntime": "1.30.0",
+      "onnxscript": "0.7.2",
+      "numpy": "2.5.3",
+      "Pillow": "12.3.0",
+      "scikit-learn": "1.9.1"
+    },
+    "torch_module_path": "/home/wenhao/pathmnist_course/.venv/lib/python3.12/site-packages/torch/__init__.py",
+    "onnxruntime_module_path": "/home/wenhao/pathmnist_course/extensions/quantization/.venv/lib/python3.12/site-packages/onnxruntime/__init__.py"
+  },
+  "timing_note": "Both variants use ONNX Runtime CPU on one thread, batch 1, zero tensor; excludes preprocessing and session creation. Do not compare directly with formal PyTorch latency."
+}

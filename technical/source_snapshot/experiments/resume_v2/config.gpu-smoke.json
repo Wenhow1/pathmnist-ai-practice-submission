@@ -1,0 +1,12 @@
+{
+  "id": "resume_v2_gpu_acceptance",
+  "model": "resnet18",
+  "size": 128,
+  "augment": true,
+  "seed": 42,
+  "batch_size": 16,
+  "epochs": 4,
+  "patience": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.0001
+}

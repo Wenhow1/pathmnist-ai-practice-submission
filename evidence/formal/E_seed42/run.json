@@ -1,0 +1,45 @@
+{
+  "config": {
+    "id": "E_seed42",
+    "group": "E",
+    "model": "mobilenet_v3_small",
+    "size": 128,
+    "augment": false,
+    "seed": 42,
+    "batch_size": 128,
+    "epochs": 40,
+    "patience": 8,
+    "lr": 0.0003,
+    "weight_decay": 0.0001
+  },
+  "config_id": "f0b321eab8e4d50c592778ae5ad02094c4f76b2bf727d938ff8cae572a2ba316",
+  "manifest_id": "ce844e66f5f346beccf155173d3de7ed7b161412f65dc6f5d67a347f2b40590b",
+  "source_id": "06df19a4b4b0a2786248635b6bda177523716fec9f9a4fb5a6ff0a8048a5a9d5",
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.14",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "torchvision": "0.29.0+cu130",
+      "medmnist": "3.0.2",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.1",
+      "pillow": "12.3.0",
+      "streamlit": "1.64.0"
+    },
+    "cuda": true,
+    "mps": false,
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "device": "cuda",
+  "smoke": false,
+  "workers": 4,
+  "started_utc": "2026-09-23T14:16:12.965773+00:00",
+  "train_n": 89996,
+  "val_n": 10004,
+  "pretrained_weights": "IMAGENET1K_V1",
+  "status": "complete",
+  "best_val_macro_f1": 0.9965115059134827,
+  "epochs_completed": 40,
+  "finished_utc": "2026-09-23T14:25:40.782276+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "median_ms": 1.8490075308363885,
+  "p95_ms": 2.0130791090196,
+  "threads": 1,
+  "batch_size": 1,
+  "warmup": 50,
+  "repeats": 500,
+  "preprocessing_included": false,
+  "device": "cpu",
+  "environment": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python": "3.12.14",
+    "packages": {
+      "torch": "2.14.0+cu130",
+      "torchvision": "0.29.0+cu130",
+      "medmnist": "3.0.2",
+      "numpy": "2.5.2",
+      "scikit-learn": "1.9.1",
+      "pillow": "12.3.0",
+      "streamlit": "1.64.0"
+    },
+    "cuda": true,
+    "mps": false,
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "parameter_count": 1527081,
+  "checkpoint_bytes": 6230545
+}

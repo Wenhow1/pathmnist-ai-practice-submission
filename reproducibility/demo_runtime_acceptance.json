@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "onnxruntime": "1.31.0",
+  "numpy": "2.5.3",
+  "cwd": "/private/tmp/pathmnist_ai_submission_accept_20261019",
+  "demo_location": "/private/tmp/pathmnist_ai_submission_accept_20261019/relocated demo 新目录",
+  "model_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+  "checks": [
+    {
+      "name": "external_network_denied_by_os",
+      "status": "passed",
+      "detail": {
+        "os_denied": true,
+        "errno": 1,
+        "endpoint": "1.1.1.1:443"
+      }
+    },
+    {
+      "name": "no_training_dependencies",
+      "status": "passed",
+      "detail": {
+        "torch": "absent",
+        "torchvision": "absent",
+        "medmnist": "absent",
+        "sklearn": "absent"
+      }
+    },
+    {
+      "name": "ten_archived_validation_samples_match_reference",
+      "status": "passed",
+      "detail": {
+        "samples": [
+          {
+            "sample_id": "val:0",
+            "given_label": 5,
+            "predicted_label": 5,
+            "max_abs_probability_error": 2.6754205517676155e-09
+          },
+          {
+            "sample_id": "val:9082",
+            "given_label": 7,
+            "predicted_label": 4,
+            "max_abs_probability_error": 5.124910352240965e-08
+          },
+          {
+            "sample_id": "val:1",
+            "given_label": 0,
+            "predicted_label": 0,
+            "max_abs_probability_error": 5.70984814984854e-10
+          },
+          {
+            "sample_id": "val:2",
+            "given_label": 1,
+            "predicted_label": 1,
+            "max_abs_probability_error": 1.958697426474032e-09
+          },
+          {
+            "sample_id": "val:12",
+            "given_label": 2,
+            "predicted_label": 2,
+            "max_abs_probability_error": 1.8183055061626874e-10
+          },
+          {
+            "sample_id": "val:6",
+            "given_label": 3,
+            "predicted_label": 3,
+            "max_abs_probability_error": 7.631673071273326e-13
+          },
+          {
+            "sample_id": "val:5",
+            "given_label": 4,
+            "predicted_label": 4,
+            "max_abs_probability_error": 5.739853037312059e-13
+          },
+          {
+            "sample_id": "val:8",
+            "given_label": 6,
+            "predicted_label": 6,
+            "max_abs_probability_error": 7.945599733716335e-11
+          },
+          {
+            "sample_id": "val:3",
+            "given_label": 7,
+            "predicted_label": 7,
+            "max_abs_probability_error": 1.1376639630356067e-09
+          },
+          {
+            "sample_id": "val:7",
+            "given_label": 8,
+            "predicted_label": 8,
+            "max_abs_probability_error": 2.4943336285332407e-10
+          }
+        ],
+        "absolute_probability_tolerance": 1e-05,
+        "correct_example": "val:0",
+        "fixed_disagreement": "val:9082"
+      }
+    },
+    {
+      "name": "input_conversion_L",
+      "status": "passed",
+      "detail": {
+        "input_mode": "L",
+        "finite_nine_class_output": true,
+        "fixture": "format-converted validation image, not clinical evidence"
+      }
+    },
+    {
+      "name": "input_conversion_RGBA",
+      "status": "passed",
+      "detail": {
+        "input_mode": "RGBA",
+        "finite_nine_class_output": true,
+        "fixture": "format-converted validation image, not clinical evidence"
+      }
+    },
+    {
+      "name": "corrupt_input_rejected",
+      "status": "passed",
+      "detail": "图片损坏或无法解码"
+    },
+    {
+      "name": "metadata_mismatch_labels",
+      "status": "passed",
+      "detail": "模型元数据不匹配: labels"
+    },
+    {
+      "name": "metadata_mismatch_size",
+      "status": "passed",
+      "detail": "模型元数据不匹配: size"
+    },
+    {
+      "name": "metadata_mismatch_dtype",
+      "status": "passed",
+      "detail": "模型元数据不匹配: dtype"
+    },
+    {
+      "name": "metadata_mismatch_layout",
+      "status": "passed",
+      "detail": "模型元数据不匹配: layout"
+    },
+    {
+      "name": "metadata_mismatch_mean",
+      "status": "passed",
+      "detail": "预处理参数不匹配: mean"
+    },
+    {
+      "name": "metadata_mismatch_std",
+      "status": "passed",
+      "detail": "预处理参数不匹配: std"
+    },
+    {
+      "name": "metadata_mismatch_variant",
+      "status": "passed",
+      "detail": "模型元数据不匹配: variant"
+    },
+    {
+      "name": "model_path_rejected_absolute",
+      "status": "passed",
+      "detail": "拒绝模型路径越界"
+    },
+    {
+      "name": "model_path_rejected_parent",
+      "status": "passed",
+      "detail": "拒绝模型路径越界"
+    },
+    {
+      "name": "model_bytes_hash_mismatch",
+      "status": "passed",
+      "detail": "模型SHA256校验失败"
+    },
+    {
+      "name": "model_symlink_escape_rejected",
+      "status": "passed",
+      "detail": "拒绝软链接路径越界"
+    },
+    {
+      "name": "default_cli_correct_sample",
+      "status": "passed",
+      "detail": {
+        "matched": true
+      }
+    },
+    {
+      "name": "cli_refuses_output_overwrite",
+      "status": "passed",
+      "detail": {
+        "matched": true
+      }
+    },
+    {
+      "name": "cli_fixed_disagreement",
+      "status": "passed",
+      "detail": {
+        "matched": true
+      }
+    }
+  ],
+  "errors": [],
+  "model_forward_calls_in_shared_predictor": 12,
+  "additional_cli_forward_calls": 2,
+  "official_test_inference": 0,
+  "new_training_runs": 0,
+  "browser_render_acceptance": "separate_receipt",
+  "scope": "new relocated copy, archived validation samples and negative/format fixtures only"
+}

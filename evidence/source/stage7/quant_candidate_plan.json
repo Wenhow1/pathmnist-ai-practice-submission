@@ -1,0 +1,34 @@
+{
+  "registered_utc": "2026-10-09T09:18:28.577048+00:00",
+  "candidate_count": 1,
+  "candidate_name": "s8s8_early_block_float",
+  "source_fp32_sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+  "calibration_sha256": "30937de715d2645de1d06d671b69288b5818dfc8d7e3d2d3aabec81dc5f4c4ee",
+  "nodes_to_exclude": [
+    "/features/features.0/features.0.0/Conv",
+    "/features/features.1/block/block.0/block.0.0/Conv",
+    "/features/features.1/block/block.1/fc1/Conv",
+    "/features/features.1/block/block.1/fc2/Conv",
+    "/features/features.1/block/block.2/block.2.0/Conv"
+  ],
+  "rationale": "Training only: total relative error grows from stem .095 to first depthwise 1.420; first block projection local QDQ .417 and total2.744. Targeted intervention retaining only stem/first-block Conv in float. Not proof of causal root. Remaining network S8S8 as original. One factor: 5 named early Conv exclusions. No candidate2 scheduled regardless of score.",
+  "unchanged": [
+    "576 original training calibration IDs",
+    "batch16",
+    "MinMax",
+    "QDQ",
+    "signed int8 activation and weight",
+    "per-channel",
+    "Conv/Gemm/MatMul coverage otherwise",
+    "FP32 source and ImageNet normalization"
+  ],
+  "validation": "10004 official val only; baseline existing fp32_val_metrics; no test",
+  "gate": {
+    "macro_f1_loss_le": 0.005,
+    "any_recall_loss_le": 0.02
+  },
+  "max_seconds": 1200,
+  "CPU_threads": 1,
+  "no_training": true,
+  "stop": "error, time budget, single candidate complete; retain failure; never change default D or run QAT"
+}

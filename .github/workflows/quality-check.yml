@@ -1,0 +1,27 @@
+name: Submission files and saved-result arithmetic
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: submission-check-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  submission-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Exact commit returned by the official actions/checkout v4 ref during preparation.
+      - name: Read this submission repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Show interpreter version
+        run: python3 --version
+      - name: New synthetic submission checker tests
+        run: python3 -m unittest discover -s tests_submission -v
+      - name: Verify saved files and arithmetic, not model execution
+        run: python3 checks/verify_submission.py --root . --require-demo-assets

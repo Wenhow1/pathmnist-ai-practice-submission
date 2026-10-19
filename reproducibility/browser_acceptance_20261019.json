@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "browser": "ChatGPT in-app browser",
+  "url": "http://127.0.0.1:8769/",
+  "app_policy": "OS denies network except loopback",
+  "browser_policy": "browser network was not globally disabled; UI uses local resources only",
+  "cases": [
+    {
+      "name": "fixed_correct_val0",
+      "prediction": 5,
+      "screenshot": "browser_correct_20261019.png"
+    },
+    {
+      "name": "fixed_disagreement_val9082",
+      "given_label": 7,
+      "prediction": 4,
+      "screenshot": "browser_disagreement_20261019.png"
+    },
+    {
+      "name": "corrupt_upload",
+      "message": "图片损坏或无法解码",
+      "prediction_returned": false,
+      "screenshot": "browser_corrupt_20261019.png"
+    },
+    {
+      "name": "valid_upload_val1",
+      "prediction": 0,
+      "screenshot": "browser_upload_20261019.png"
+    }
+  ],
+  "new_model_forward_calls": 3,
+  "official_test_inference": 0,
+  "automation_note": "Initial semantic file-picker lookup timed out; recovered with the native file chooser. No application changes were needed.",
+  "classroom_projection": "not_tested"
+}

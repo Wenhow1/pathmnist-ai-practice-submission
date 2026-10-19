@@ -1,0 +1,71 @@
+{
+  "purpose": "copy existing assets before runtime验收; not a new experiment",
+  "files": [
+    {
+      "path": "demo/portable_demo/model/fp32.onnx",
+      "sha256": "8592824c3b716d672faa1089235d0a85dca5fc5057a7b5bcaf5571cd5fcfcf33",
+      "bytes": 6128891,
+      "source": "original Stage7 portable demo FP32 asset"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_0.png",
+      "sha256": "f78d72788b4defc6e6428bdb6112620de2a4bfccab9e189546803b31cb58128c",
+      "sample_id": "val:0",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_9082.png",
+      "sha256": "7ecd3b36b57ec1e3fd22c3fd2c3bc525031ba76d76c5f303d742a2abc5c9246b",
+      "sample_id": "val:9082",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_1.png",
+      "sha256": "ba6c30cc7c35453b7c7fff73eadabae899a9da0c30805da4649b515bfdcded2f",
+      "sample_id": "val:1",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_2.png",
+      "sha256": "ed2288bc0fb66240b07a63e910117170335a445744af4b8971b6fb365f3e0045",
+      "sample_id": "val:2",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_12.png",
+      "sha256": "029c891550edf821fce4f095d8f259f7f6c391b0337bb8bd27c28abc1df292b1",
+      "sample_id": "val:12",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_6.png",
+      "sha256": "5dbdd6b203aaa7167e46a8d5582bc19a4669d395dbecae8bfe722da57a74a011",
+      "sample_id": "val:6",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_5.png",
+      "sha256": "864c2325953a481817f354dbb93e4aa7bec4816e481c6242105fc856c58215f0",
+      "sample_id": "val:5",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_8.png",
+      "sha256": "5931cc417dbd6f282f556f64a276fac84abd7b3e28b34c3ab126abafa5a74b88",
+      "sample_id": "val:8",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_3.png",
+      "sha256": "9c8a34b1cc7adb89cbd60a76d9bad1f7e3569514525f5790e6ebebe26dc7f79f",
+      "sample_id": "val:3",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    },
+    {
+      "path": "demo/portable_demo/samples/val_7.png",
+      "sha256": "2d813e0cc6dc718fc96524bf91b371e72da0093005db36edb77c496a0ffaf607",
+      "sample_id": "val:7",
+      "source": "existing PNG named in sample provenance; do not regenerate from screenshot"
+    }
+  ]
+}
